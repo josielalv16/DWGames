@@ -1,0 +1,14 @@
+Você deve executar seu aplicativo no servidor, usar o nó js
+
+1- Instalar NodeJS // Dica: se você estiver em um Mac, você deseja instalar e usar o Homebrew para isso
+
+2- Abra seu emulador de terminal favorito
+
+2- Instale http-server executando: npm install http-server -g
+
+3- Inicie o http-server executando: http-server 'path/to/your/angular/root/directory' -o
+
+Esse último comando - especificamente, o sinalizador -o - deve abrir uma janela do navegador em: localhost: 8080
+
+OU // use o cd para encontrar seu aplicativo de diretório 
+e use este comando:http-server . -o
