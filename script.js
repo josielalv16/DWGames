@@ -40,7 +40,7 @@ function plusDivs(n) {
             mostrarFoto(slideIndex = n);
         }
 
-        //ERROOOOO NA LINHA 58, FAZENDO PAGINA DE JOGO.HTML DANDO ERROOOOOOO ARRUMAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        //ERROOOOO NA LINHA 58, FAZENDO PAGINA DE JOGO.HTML DANDO ERROOOOOOO ARRUMAAAAAAAAAAAAAAAAAAAAAAAAA
 
 function mostrarFoto(n) {
             var i;
