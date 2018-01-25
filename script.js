@@ -23,41 +23,9 @@ window.onload = function(){
     setTimeout(function(){ 
         styloMenu();
     }, 100);
-
-        var slideIndex = 1;
-        mostrarFoto(slideIndex);
-
-        
-
-        
 }
 
-function plusDivs(n) {
-            mostrarFoto(slideIndex += n);
-        }
-
-        function trocarFoto(n) {
-            mostrarFoto(slideIndex = n);
-        }
-
-        //ERROOOOO NA LINHA 58, FAZENDO PAGINA DE JOGO.HTML DANDO ERROOOOOOO ARRUMAAAAAAAAAAAAAAAAAAAAAAAAA
-
-function mostrarFoto(n) {
-            var i;
-            var x = document.getElementsByClassName("slide-jogo");
-            console.log("XXXXXXXX" + x);
-            var dots = document.getElementsByClassName("demo");
-            if (n > x.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = x.length}
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" slide-jogo-opacity-off", "");
-            }
-            x[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " slide-jogo-opacity-off";
-        }
+var jogosPlayStation3;
 
 //Seleciona o menu correspondente a pagina e chama a função para carregar os jogos caso houver
 function styloMenu(){
@@ -78,12 +46,17 @@ function styloMenu(){
         var xboxone = document.getElementById("xboxone");
         xboxone.style.borderBottom = '10px solid #673AB7';
         xboxone.style.color = '#673AB7';
-    }else if(url_atual.includes("playstation3")){
+    }else if(url_atual.includes("playstation3") || url_atual.includes("ps3")){
         var play3 = document.getElementById("playstation3");
         play3.style.borderBottom = '10px solid #A62C48';
         play3.style.color = '#A62C48';
-        //Chama função no arquivo /scrips/ps3.js
-        carregarTodosJogosPs3();
+        if(url_atual.includes("playstation3")){
+            //Chama função no arquivo /scrips/ps3.js
+            $.get('./json/ps3.json', function(res){
+                jogosPlayStation3 = res;
+                carregarTodosJogosPs3();
+            });
+        }
     }else if(url_atual.includes("playstation4")){
         var play4 = document.getElementById("playstation4");
         play4.style.borderBottom = '10px solid #44A3BD';
@@ -92,5 +65,59 @@ function styloMenu(){
         var play4 = document.getElementById("playstation4");
         play4.style.borderBottom = '10px solid #FF5722';
         play4.style.color = '#FF5722';
+    }
+}
+
+function carregarTodosJogosPs3() {
+    var baseCard = document.getElementById("base-card");
+    var html = '';
+    var aux = 0;
+    for(var i = 0; i < jogosPlayStation3.length; i++){
+        if(aux % 3 == 0){
+            html += '<div class="base-card">';
+        }
+        aux++;
+        var estrela1 = jogosPlayStation3[i].estrelas >= 1 ? "estrela-ativa" : "";
+        var estrela2 = jogosPlayStation3[i].estrelas >= 2 ? "estrela-ativa" : "";
+        var estrela3 = jogosPlayStation3[i].estrelas >= 3 ? "estrela-ativa" : "";
+        var estrela4 = jogosPlayStation3[i].estrelas >= 4 ? "estrela-ativa" : "";
+        var estrela5 = jogosPlayStation3[i].estrelas >= 5 ? "estrela-ativa" : "";
+
+        html += '<div class="base-card-conteudo com-borda vinho"><a href="jogo.html?' + jogosPlayStation3[i].id + '&ps3"><div class="bloco-conteudo"><div class="background"><img src="imagens/ps3/' + jogosPlayStation3[i].imagem +'"></div><div class="conteudo"><div class="categoria">' + jogosPlayStation3[i].genero +'</div><div class="titulo">' + jogosPlayStation3[i].nome + '</div><div><div class="valor">R$' + jogosPlayStation3[i].preco + '</div><div class="avaliacao"><span class="base-estrela estrela ' + estrela1 +' "></span><span class="base-estrela estrela ' + estrela2 + '"></span><span class="base-estrela estrela ' + estrela3 + '"></span><span class="base-estrela estrela ' + estrela4 + '"></span><span class="base-estrela estrela ' + estrela5 + '"></span></div></div></div></div><div class="bloco-conteudo hover"><div class="conteudo"><div class="empresa">' + jogosPlayStation3[i].empresa + '</div></div></div></a></div>';
+        if(aux % 3 == 0){
+            html += '</div>';
+        }
+    }
+
+    baseCard.innerHTML = html;
+}
+
+function filtroGeneroPs3(genero){
+    var baseCard = document.getElementById("base-card");
+    document.getElementById("base-categoria").innerText = genero;
+    var html = '';
+    var aux = 0;
+    if(genero == "Todos") {
+        carregarTodosJogosPs3();
+    } else {
+        for(var i = 0; i < jogosPlayStation3.length; i++) {
+            if(jogosPlayStation3[i].genero.includes(genero)) {
+                if(aux % 3 == 0) {
+                    html += '<div class="base-card">';
+                }
+                aux++;
+                var estrela1 = jogosPlayStation3[i].estrelas >= 1 ? "estrela-ativa" : "";
+                var estrela2 = jogosPlayStation3[i].estrelas >= 2 ? "estrela-ativa" : "";
+                var estrela3 = jogosPlayStation3[i].estrelas >= 3 ? "estrela-ativa" : "";
+                var estrela4 = jogosPlayStation3[i].estrelas >= 4 ? "estrela-ativa" : "";
+                var estrela5 = jogosPlayStation3[i].estrelas >= 5 ? "estrela-ativa" : "";
+
+                html += '<div class="base-card-conteudo com-borda vinho"><a href="jogo.html?' + jogosPlayStation3[i].id + '&ps3"><div class="bloco-conteudo"><div class="background"><img src="imagens/ps3/' + jogosPlayStation3[i].imagem +'"></div><div class="conteudo"><div class="categoria">' + jogosPlayStation3[i].genero +'</div><div class="titulo">' + jogosPlayStation3[i].nome + '</div><div><div class="valor">R$' + jogosPlayStation3[i].preco + '</div><div class="avaliacao"><span class="base-estrela estrela ' + estrela1 +' "></span><span class="base-estrela estrela ' + estrela2 + '"></span><span class="base-estrela estrela ' + estrela3 + '"></span><span class="base-estrela estrela ' + estrela4 + '"></span><span class="base-estrela estrela ' + estrela5 + '"></span></div></div></div></div><div class="bloco-conteudo hover"><div class="conteudo"><div class="empresa">' + jogosPlayStation3[i].empresa + '</div></div></div></a></div>';
+                if(aux % 3 == 0){
+                    html += '</div>';
+                }
+            }
+        }
+        baseCard.innerHTML = html;
     }
 }

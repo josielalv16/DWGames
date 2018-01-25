@@ -209,6 +209,18 @@ img {
 	padding-bottom: 8px;
 }
 
+.breadcumb div:first-child{
+	padding-left: 0px;
+}
+
+.vinho, .vinho > a {
+	color: #a62c48 !important;
+}
+
+.breadcumb.vinho a {
+	color: #a62c48 !important;
+}
+
 .breadcumb a, .breadcumb a:hover, .breadcumb a:visited {
 	color: #4d4d4d;
 	text-decoration: none;
@@ -222,7 +234,6 @@ img {
 	font-weight: bold;
 	color: #b3b3b3;
 	font-size: 20px;
-	font-family: 'MyriadPro Regular';
 }
 
 .breadcumb div:first-child:before {
@@ -236,6 +247,8 @@ img {
 .breadcumb a:hover {
 	text-decoration: underline !important;
 }
+
+
 
 @media all and (max-width: 1065px){
 	.painel{

@@ -1,177 +1,189 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<title>Jogo</title>
-		<meta charset="utf-8"/>
-		<meta name="description" content="Vitrine de Jogos!">
-		<meta name="keywords" content="HTML, Jogos, PC, XBox 360, XBox One, PlayStation 3, PlayStation 4">
-		<meta name="author" content="Josiel Alves de Matos">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<script type="text/javascript" src="script.js"></script>
-		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-		
-	</head>
-	<style>
-		.w3-content {
-			margin: auto;
-		}
-		.slide-jogo {
-			display: none;
-		}
-		.section-jogo {
-			margin-top: 16px !important;
-			margin-bottom: 16px !important;
-		}
-		.linha-padding-jogo:after, .linha-padding-jogo:before {
-			content: "";
-			display: table;
-			clear: both;
-		}
-		.slide-col-jogo {
-			float: left;
-			width: 100%;
-		}
-		.slide-col-jogo.s4 {
-			width: 33.33333%;
-			max-height: 120px;
-			text-align: center;
-		}
-		.demo {
-			cursor: pointer;
-			height: 120px;
-		}
-		.slide-jogo-opacity, .slide-jogo-hover-opacity:hover {
-			opacity: 0.60;
-		}
-		.slide-jogo-opacity-off, .slide-jogo-hover-opacity-off:hover {
-			opacity: 1;
-		}
-		.jogo-estrela .base-estrela{
-			font-size: 20px;
-		}
-		.preco-jogo {
-			font-size: 45px;
-			color: black;
-			margin: 30px auto 50px;
-			font-weight: bold;
-		}
-		.descricao-jogo {
-			font-size: 16px;
-			background-color: #F0F0F0;
-			padding: 10px;
-			text-align: left;
-			color: black;
-			display: unset;
-			margin: 0;
-			font-weight: bold;
-		}
-		.texto-descricao-jogo {
-			font-size: 14px;
-			line-height: 1.8em;
-			background-color: #F0F0F0;
-			padding: 10px;
-			margin: 0;
-			text-align: left;
-			color: #666666;
-			font-weight: normal;
-		}
-		@media all and (max-width: 990px) {
-			.jogo .col6{
-				text-align: center;
-			}
-		}
-	</style>
-	<body>
-		<header id="cabecalho"></header>
-		<div class="jogo">
-			<div class="painel">
-				<div class="grade">
-					<div class="grade-linha">
-						<div id="baseInfoJogo"></div>
-						<!-- <div class="col6">
-							<div class="w3-content" style="max-width: 500px">
-								<img class="slide-jogo" src="imagens/ps3/2014-fifa.jpg" style="width:100%">
-	  							<img class="slide-jogo" src="imagens/ps3/alice-madness-returns.jpg" style="width:100%">
-	  							<img class="slide-jogo" src="imagens/ps3/aliens-colonial-marines.jpg" style="width:100%">
-	  							<div class="linha-padding-jogo section-jogo">
-	  								<div class="slide-col-jogo s4">
-	  									<img class="demo slide-jogo-opacity slide-jogo-hover-opacity-off" src="imagens/ps3/2014-fifa.jpg" onclick="currentDiv(1)">
-	  								</div>
-	  								<div class="slide-col-jogo s4">
-	  									<img class="demo slide-jogo-opacity slide-jogo-hover-opacity-off" src="imagens/ps3/alice-madness-returns.jpg" onclick="currentDiv(2)">
-	  								</div>
-	  								<div class="slide-col-jogo s4">
-	  									<img class="demo slide-jogo-opacity slide-jogo-hover-opacity-off" src="imagens/ps3/aliens-colonial-marines.jpg" onclick="currentDiv(3)">
-	  								</div>
-	  							</div>
-							</div>
-						</div>
-						<div class="col6">
-							<div>
-								<h1 style="color: black;">Aliens Colonial Marines</h1>
-							</div>
-							<div style="margin: 15px auto;">
-								<span style="font-weight: bold;">Gênero:</span>
-								<span>Ação</span>
-							</div>
-							<div>
-								<span>Avaliação</span>
-								<div class="avaliacao jogo-estrela">
-									<span class="base-estrela estrela estrela-ativa"></span>
-									<span class="base-estrela estrela estrela-ativa"></span>
-									<span class="base-estrela estrela estrela-ativa"></span>
-									<span class="base-estrela estrela"></span>
-									<span class="base-estrela estrela"></span>
-								</div>
-							</div>
-							<div class="preco-jogo">
-								R$ 79,91
-							</div>
-							<div>
-								<p class="descricao-jogo">Descrição</p>
-								<p class="texto-descricao-jogo">Fallout 3 é um jogo que retrata bem a paranoia e o pânico geradas pela Guerra fria entre os Estados Unidos e a União Soviética nas décadas de 60 e 70. Em Fallout 3 a guerra nuclear realmente aconteceu e devastou o mundo inteiro. Agora você vive um local hostil desde seu nascimento, onde as pessoas se agrupam como podem, em complexos subterrâneos, enquanto nas áreas a céu aberto criaturas mutantes matam todos os humanos que veem pela frente. Com grandes áreas para serem exploradas e imensa duração de jogo, Fallout 3 é considerado um dos melhores jogos de RPG da nova geração.</p>
-							</div>
-						</div> -->
-					</div>
+<head>
+	<title>Jogo</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content="Vitrine de Jogos!">
+	<meta name="keywords" content="HTML, Jogos, XBox 360, XBox One, PlayStation 3, PlayStation 4">
+	<meta name="author" content="Josiel Alves de Matos">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+</head>
+<style>
+.base-info-jogo {
+	margin: auto;
+}
+.slide-jogo {
+	display: none;
+}
+.section-jogo {
+	margin-top: 16px !important;
+	margin-bottom: 16px !important;
+}
+.linha-padding-jogo:after, .linha-padding-jogo:before {
+	content: "";
+	display: table;
+	clear: both;
+}
+.slide-col-jogo {
+	float: left;
+	width: 100%;
+}
+.slide-col-jogo.s4 {
+	width: 33.33333%;
+	max-height: 120px;
+	text-align: center;
+}
+.demo {
+	cursor: pointer;
+	height: 120px;
+}
+.slide-jogo-opacity, .slide-jogo-hover-opacity:hover {
+	opacity: 0.60;
+}
+.slide-jogo-opacity-off, .slide-jogo-hover-opacity-off:hover {
+	opacity: 1;
+}
+.jogo-estrela .base-estrela{
+	font-size: 20px;
+}
+.preco-jogo {
+	font-size: 45px;
+	color: black;
+	margin: 30px auto 50px;
+	font-weight: bold;
+}
+.descricao-jogo {
+	font-size: 16px;
+	background-color: #F0F0F0;
+	padding: 10px;
+	text-align: left;
+	color: black;
+	display: unset;
+	margin: 0;
+	font-weight: bold;
+}
+.texto-descricao-jogo {
+	font-size: 14px;
+	line-height: 1.8em;
+	background-color: #F0F0F0;
+	padding: 10px;
+	margin: 0;
+	text-align: left;
+	color: #666666;
+	font-weight: normal;
+}
+@media all and (max-width: 990px) {
+	.jogo .col6{
+		text-align: center;
+	}
+}
+</style>
+<body>
+	<header id="cabecalho"></header>
+	<div class="grade">
+		<div class="breadcumb vinho">
+			<div>
+				<a href="inicio.html">Inicio</a>
+			</div>
+			<div>
+				<span id="breadPlataforma"></span>
+			</div>
+			<div>
+				<span id="breadNome"></span>
+			</div>
+		</div>
+	</div>
+	<div class="jogo">
+		<div class="painel">
+			<div class="grade">
+				<div class="grade-linha">
+					<div id="baseInfoJogo"></div>
 				</div>
 			</div>
 		</div>
-		<footer id="rodape"></footer>
-	</body>
-	<script>
-		var url_atual = window.location.href;
-		var consoleId = url_atual.split("?")[1];
-		console.log(consoleId);
-		var idJogo = consoleId.split("&")[0];
-		var plataforma = consoleId.split("&")[1];
-		console.log(idJogo);
-		console.log(plataforma);
+	</div>
+	<footer id="rodape"></footer>
+</body>
+<script>
+	var url_atual = window.location.href;
+	var consoleId = url_atual.split("?")[1];
+	var idJogo = consoleId.split("&")[0];
+	var plataforma = consoleId.split("&")[1];
+	var breadPlataforma = document.getElementById("breadPlataforma");
+	var slideIndexJogo = 1;
 
-		if(plataforma == "ps3"){
-			$.get('./json/ps3.json', function(res){
-				var baseInfoJogo = document.getElementById("baseInfoJogo");
-				var html = '';
-				console.log("Testeeeee");
-				for(var i = 0; i < res.length; i++){
-					if(res[i].id == idJogo){
-						var estrela1 = res[i].estrelas >= 1 ? "estrela-ativa" : "";
-						var estrela2 = res[i].estrelas >= 2 ? "estrela-ativa" : "";
-						var estrela3 = res[i].estrelas >= 3 ? "estrela-ativa" : "";
-						var estrela4 = res[i].estrelas >= 4 ? "estrela-ativa" : "";
-						var estrela5 = res[i].estrelas >= 5 ? "estrela-ativa" : "";
+	if(plataforma == "ps3") {
+		breadPlataforma.innerHTML = "<a href='playstation3.html'>PlayStation 3</a>";
+		$.get('./json/ps3.json', function(res) {
+			carregarJogo(res);
+		});
+	} else if(plataforma == "ps4") {
+		breadPlataforma.innerHTML = "<a href='playstation4.html'>PlayStation 4</a>";
+		$.get('./json/ps4.json', function(res) {
+			carregarJogo(res);
+		});
+	} else if(plataforma == "xbox360"){
+		breadPlataforma.innerHTML = "<a href='xbox360.html'>XBox 360</a>";
+		$.get('./json/xbox360.json', function(res) {
+			carregarJogo(res);
+		});
+	} else if(plataforma == "xboxone"){
+		breadPlataforma.innerHTML = "<a href='xboxone.html'>XBox One</a>";
+		$.get('./json/xboxone.json', function(res) {
+			carregarJogo(res);
+		});
+	}
 
-						html += '<div class="col6"><div class="w3-content" style="max-width: 500px"><img class="slide-jogo" src="imagens/ps3/' + res[i].imagens[0] + '" style="width:100%"><img class="slide-jogo" src="imagens/ps3/' + res[i].imagens[1] + '" style="width:100%"><img class="slide-jogo" src="imagens/ps3/' + res[i].imagens[2] + '" style="width:100%"><div class="linha-padding-jogo section-jogo"><div class="slide-col-jogo s4"><img class="demo slide-jogo-opacity slide-jogo-hover-opacity-off" src="imagens/ps3/' + res[i].imagens[0] + '" onclick="trocarFoto(1)"></div><div class="slide-col-jogo s4"><img class="demo slide-jogo-opacity slide-jogo-hover-opacity-off" src="imagens/ps3/' + res[i].imagens[1]+ '" onclick="trocarFoto(2)"></div><div class="slide-col-jogo s4"><img class="demo slide-jogo-opacity slide-jogo-hover-opacity-off" src="imagens/ps3/' + res[i].imagens[2] + '" onclick="trocarFoto(3)"></div></div></div></div><div class="col6"><div><h1 style="color: black;">' + res[i].nome + '</h1></div><div style="margin: 15px auto;"><span style="font-weight: bold;">Gênero:</span><span>' + res[i].genero + '</span></div><div><span>Avaliação</span><div class="avaliacao jogo-estrela"><span class="base-estrela estrela ' + estrela1 + '"></span><span class="base-estrela estrela ' + estrela2 + '"></span><span class="base-estrela estrela ' + estrela3 + '"></span><span class="base-estrela estrela ' + estrela4 + '"></span><span class="base-estrela estrela ' + estrela5 + '"></span></div></div><div class="preco-jogo">R$ ' + res[i].preco + '</div><div><p class="descricao-jogo">Descrição</p><p class="texto-descricao-jogo">' + res[i].descricao + '</p></div></div>';
-					}
-				}
-				baseInfoJogo.innerHTML = html;
-			});
+	function carregarJogo(res){
+		var baseInfoJogo = document.getElementById("baseInfoJogo");
+		var breadNome = document.getElementById("breadNome");
+		var html = '';
+
+		for(var i = 0; i < res.length; i++){
+			if(res[i].id == idJogo){
+				breadNome.innerText = res[i].nome;
+				var estrela1 = res[i].estrelas >= 1 ? "estrela-ativa" : "";
+				var estrela2 = res[i].estrelas >= 2 ? "estrela-ativa" : "";
+				var estrela3 = res[i].estrelas >= 3 ? "estrela-ativa" : "";
+				var estrela4 = res[i].estrelas >= 4 ? "estrela-ativa" : "";
+				var estrela5 = res[i].estrelas >= 5 ? "estrela-ativa" : "";
+
+				html += '<div class="col6"><div class="base-info-jogo" style="max-width: 500px"><img class="slide-jogo" src="imagens/' + plataforma + '/' + res[i].imagens[0] + '" style="width:100%"><img class="slide-jogo" src="imagens/' + plataforma + '/' + res[i].imagens[1] + '" style="width:100%"><img class="slide-jogo" src="imagens/' + plataforma + '/' + res[i].imagens[2] + '" style="width:100%"><div class="linha-padding-jogo section-jogo"><div class="slide-col-jogo s4"><img class="demo slide-jogo-opacity slide-jogo-hover-opacity-off" src="imagens/' + plataforma + '/' + res[i].imagens[0] + '" onclick="trocarFoto(1)"></div><div class="slide-col-jogo s4"><img class="demo slide-jogo-opacity slide-jogo-hover-opacity-off" src="imagens/' + plataforma + '/' + res[i].imagens[1] + '" onclick="trocarFoto(2)"></div><div class="slide-col-jogo s4"><img class="demo slide-jogo-opacity slide-jogo-hover-opacity-off" src="imagens/' + plataforma + '/' + res[i].imagens[2] + '" onclick="trocarFoto(3)"></div></div></div></div><div class="col6"><div><h1 style="color: black;">' + res[i].nome + '</h1></div><div style="margin: 15px auto;"><span style="font-weight: bold;">Gênero: </span><span>' + res[i].genero + '</span></div><div><span>Avaliação</span><div class="avaliacao jogo-estrela"><span class="base-estrela estrela ' + estrela1 + '"></span><span class="base-estrela estrela ' + estrela2 + '"></span><span class="base-estrela estrela ' + estrela3 + '"></span><span class="base-estrela estrela ' + estrela4 + '"></span><span class="base-estrela estrela ' + estrela5 + '"></span></div></div><div class="preco-jogo">R$ ' + res[i].preco + '</div><div><p class="descricao-jogo">Descrição</p><p class="texto-descricao-jogo">' + res[i].descricao + '</p></div></div>';
+			}
 		}
-		
+		baseInfoJogo.innerHTML = html;
+		mostrarFoto(slideIndexJogo);
+	}
 
+	function trocarFoto(n) {
+		mostrarFoto(slideIndexJogo = n);
+	}
 
-		
-	</script>
+	function mostrarFoto(n) {
+		var i;
+		var x = document.getElementsByClassName("slide-jogo");
+		var dots = document.getElementsByClassName("demo");
+
+		if (n > x.length) {
+			slideIndexJogo = 1;
+		}
+		if (n < 1) {
+			slideIndexJogo = x.length;
+		}
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" slide-jogo-opacity-off", "");
+		}
+		x[slideIndexJogo-1].style.display = "block";
+		dots[slideIndexJogo-1].className += " slide-jogo-opacity-off";
+	}
+
+</script>
 </html>
