@@ -6,9 +6,9 @@
 		"preco": "71,90",
 		"empresa": "Bethesda Game Studios",
 		"imagem": "skyrim.jpg",
-		"imagens": ["skyrim.jpg", "", ""],
+		"imagens": ["skyrim.jpg", "skyrimimg2.jpg", "skyrimimg3.jpg"],
 		"estrelas": 2,
-		"descricao": ""
+		"descricao": "The Elder Scrolls V: Skyrim se destaca pelos cenários gigantescos e gráficos de ultima geração, um sistema de combate renovado e um mapa gigantesco para explorar. Em Skyrim, você irá retornar ao mundo de Tamriel, 200 anos após os eventos do último jogo, Elder Scrolls IV: Oblivion. Agora, o Império está em decadência e as nações élficas estão retomando os territórios antes dominados pelos humanos. Uma antiga profecia se concretiza e uma guerra civil entre as raças do Norte se inicia com a morte do rei de Skyrim. Como estava escrito nos Pergaminhos Antigos, a guerra em Skyrim é o último passo para o retorno de Alduin, o deus dragão da destruição e agora cabe a você encarar seu destino como o último Dovahkiin, um caçador de dragões ungido pelos deuses para combater a ameaça de Alduin."
 	},
 	{
 		"id": 2,
@@ -17,9 +17,9 @@
 		"preco": "71,00",
 		"empresa": "Infinity Ward",
 		"imagem": "call-of-duty-ghosts.jpg",
-		"imagens": ["call-of-duty-ghosts.jpg", "", ""],
+		"imagens": ["call-of-duty-ghosts.jpg", "call-of-duty-ghostsimg2.jpg", "call-of-duty-ghostsimg3.jpg"],
 		"estrelas": 3,
-		"descricao": ""
+		"descricao": "Call of Duty: Ghosts decorre numa cronologia alternativa e segue os eventos de uma destruição nuclear do Oriente Médio. As nações produtoras de petróleo da América do Sul criam a Federação, como resposta à crise econômica global acabando por se tornar numa superpotência, invadindo a América Central e o Caribe. Os principais protagonistas do jogo são os Ghosts, uma força de operações especiais norte americanas, treinados para realizar missões clandestinas, fora da linha do inimigo. O principal antagonista é Gabriel Rorke, ex-Ghost, que se tornou traidor depois de ter sido capturado e que agora trabalha para a Federação."
 	},
 	{
 		"id": 3,
@@ -28,9 +28,9 @@
 		"preco": "71,91",
 		"empresa": "Telltale Games",
 		"imagem": "batman-telltale.jpg",
-		"imagens": ["batman-telltale.jpg", "", ""],
+		"imagens": ["batman-telltale.jpg", "batman-telltaleimg2.jpg", "batman-telltaleimg3.jpg"],
 		"estrelas": 4,
-		"descricao": ""
+		"descricao": "Batman The Telltale Series PS3 conta a história do Homem Morcego ainda no início de sua carreira heróica. Batman The Telltale Series tem sua narrativa bem dividida entre os momentos históricos de Bruce Wayne e os de ação de Batman. O Morcego ainda está a descobrir quem são seus amigos e aliados. Em Batman The Telltale Series há muita história e explicações sobre a vida do herói por trás do Homem Morcego."
 	},
 	{
 		"id": 4,
@@ -39,9 +39,9 @@
 		"preco": "71,91",
 		"empresa": "Bethesda Game Studios",
 		"imagem": "fallout-3.jpg",
-		"imagens": ["fallout-3.jpg", "", ""],
+		"imagens": ["fallout-3.jpg", "fallout-3img2.jpg", "fallout-3img3.jpg"],
 		"estrelas": 4,
-		"descricao": ""
+		"descricao": "Fallout 3 é um jogo que retrata bem a paranoia e o pânico geradas pela Guerra fria entre os Estados Unidos e a União Soviética nas décadas de 60 e 70. Em Fallout 3 a guerra nuclear realmente aconteceu e devastou o mundo inteiro. Agora você vive um local hostil desde seu nascimento, onde as pessoas se agrupam como podem, em complexos subterrâneos, enquanto nas áreas a céu aberto criaturas mutantes matam todos os humanos que veem pela frente. Com grandes áreas para serem exploradas e imensa duração de jogo, Fallout 3 é considerado um dos melhores jogos de RPG da nova geração."
 	},
 	{
 		"id": 5,
@@ -50,9 +50,9 @@
 		"preco": "125,91",
 		"empresa": "Spike",
 		"imagem": "dragon-ball-raging-blast.jpg",
-		"imagens": ["dragon-ball-raging-blast.jpg", "dragon-ball-raging-blast.jpg", "dragon-ball-raging-blast.jpg"],
+		"imagens": ["dragon-ball-raging-blast.jpg", "dragon-ball-raging-blastimg2.jpg", "dragon-ball-raging-blastimg3.jpg"],
 		"estrelas": 5,
-		"descricao": "Descrição Dragon Ball Raging"
+		"descricao": "Em Dragon Ball: Raging Blast você vai encontrar batalhas extremamente dinâmicas e arenas literalmente colossais, como andar e voar através de cânions e pradarias sem fim, que serão possíveis de destruir para provocar dano no oponente, ou mesmo arremessá-lo para machucá-lo mais ainda."
 	},
 	{
 		"id": 6,
@@ -61,9 +61,9 @@
 		"preco": "44,91",
 		"empresa": "Treyarch",
 		"imagem": "call-of-duty-black-ops.jpg",
-		"imagens": ["call-of-duty-black-ops.jpg", "", ""],
+		"imagens": ["call-of-duty-black-ops.jpg", "call-of-duty-black-opsimg2.jpg", "call-of-duty-black-opsimg3.jpg"],
 		"estrelas": 4,
-		"descricao": ""
+		"descricao": "Os acontecimentos de Call Of Duty Black OPS se passam por países como Vietnã, Cuba e Rússia, onde os perigos da Guerra Fria são intensos e brutais. Black OPS conta também com um modo multiplayer cooperativo para até quatro pessoas, onde os parceiros participarão da campanha integral do título."
 	},
 	{
 		"id": 7,
@@ -72,9 +72,9 @@
 		"preco": "44,91",
 		"empresa": "Piranha Bytes",
 		"imagem": "risen-2.jpg",
-		"imagens": ["risen-2.jpg", "", ""],
+		"imagens": ["risen-2.jpg", "risen-2img2.jpg", "risen-2img3.jpg"],
 		"estrelas": 5,
-		"descricao": ""
+		"descricao": "Risen 2 Dark Waters se passa muitos anos após os eventos do primeiro Risen. Com o passar dos anos, o herói sem nome acabou abandonando as criaturas míticas das montanhas por sessões de bebedeira. Tudo seguia uma tranquila rotina, até o momento em que monstros marinhos começaram a dividir embarcações ao meio. Utilize fumegantes armas de fogo para combater os perigos dos mares, além da clássica luta corpo a corpo, o duelo de espadas ou mesmo de um embate mágico."
 	},
 	{
 		"id": 8,
@@ -83,9 +83,9 @@
 		"preco": "89,91",
 		"empresa": "Namco",
 		"imagem": "tekken-tag-tournament-2.jpg",
-		"imagens": ["tekken-tag-tournament-2.jpg", "", ""],
+		"imagens": ["tekken-tag-tournament-2.jpg", "tekken-tag-tournament-2img2.jpg", "tekken-tag-tournament-2img3.jpg"],
 		"estrelas": 3,
-		"descricao": ""
+		"descricao": "Tekken Tag Tournament 2 é traz antigas características dos primeiros títulos da série. O jogo traz modos de jogo multiplayer e single player, possibilitando desafiar outros jogadores localmente ou pela internet. Com mais de 50 personagens e uma série de golpes inovadores, os jogadores de Tekken Tag Tournament 2 podem combater no modo clássico arcade ou em outros torneios. Tekken ainda traz diversos novos cenários representando uma série de países. Os efeitos especiais também foram melhorados, agora, você pode sentir a poeira levantando durante as lutas. "
 	},
 	{
 		"id": 9,
@@ -94,9 +94,9 @@
 		"preco": "79,90",
 		"empresa": "Rovio Entertainment",
 		"imagem": "angry-birds-star-wars.jpg",
-		"imagens": ["angry-birds-star-wars.jpg", "", ""],
+		"imagens": ["angry-birds-star-wars.jpg", "angry-birds-star-warsimg2.jpg", "angry-birds-star-warsimg3.jpg"],
 		"estrelas": 4,
-		"descricao": ""
+		"descricao": "Junte-se em uma aventura épica com os Angry Birds no lendário universo Star Wars, remasterizado para os sistemas de jogos! Use a Força, empunhe seu sabre de luz e detone Pigtroopers em uma viagem intergaláctica dos desertos de Tatooine até as profundezas da Estrela Pig - onde você vai confrontar o terrível Darth Vader, Lorde Negro dos Porcos! Você será capaz de se tornar um Mestre Jedi e restaurar a liberdade na galáxia? Que os pássaros estejam com você!"
 	},
 	{
 		"id": 10,
@@ -105,9 +105,9 @@
 		"preco": "71,90",
 		"empresa": "Liquid Entertainment",
 		"imagem": "rise-of-the-agornauts.jpg",
-		"imagens": ["rise-of-the-agornauts.jpg", "", ""],
+		"imagens": ["rise-of-the-agornauts.jpg", "rise-of-the-agornautsimg2.jpg", "rise-of-the-agornautsimg3.jpg"],
 		"estrelas": 4,
-		"descricao": ""
+		"descricao": "Rise Of The Argonauts mostra a grande e conhecida aventura de Jasão e os Argonautas em busca do Velo de Ouro, o único artefato que pode trazer sua amada de volta à vida. O jogador incorpora o próprio Jasão e tem como companhia figuras ilustres da mitologia grega como Hercules, Aquiles, Atalanta e outros Argonautas, que enfrentam monstros e inimigos em uma recriação magnífica da Grécia antiga. Reine como um verdadeiro rei e tenha uma terra próspera e o respeito de seus súditos, o qual você terá não só o apoio de muitos, como as melhores armas e equipamentos para enfrentar qualquer tipo de perigo que venha a aparecer, mesmo no começo do jogo. Além de adquirir experiência lutando, o protagonista também pode ganhar pontos neste aspecto ao conversar com as pessoas. Dependendo da resposta, você agrada a determinado deus, que, por sua vez, vai lhe conceder uma habilidade específica."
 	},
 	{
 		"id": 11,
@@ -116,9 +116,9 @@
 		"preco": "26,91",
 		"empresa": "Kojima Productions",
 		"imagem": "metal-gear-solid-hd-cole.jpg",
-		"imagens": ["metal-gear-solid-hd-cole.jpg", "", ""],
+		"imagens": ["metal-gear-solid-hd-cole.jpg", "metal-gear-solid-hd-coleimg2.jpg", "metal-gear-solid-hd-coleimg3.jpg"],
 		"estrelas": 3,
-		"descricao": ""
+		"descricao": "Metal Gear Solid HD Collection dispõe dos jogos Metal Gear Solid 2: Sons of the Liberty, Metal Gear Solid 3: Snake Eater e Metal Gear Solid: Peace Walker. A estrutura que caracterizou os jogos continua intacta, trazendo toda a aventura de Snake e seus companheiros para a sétima geração com gráficos em 1080p. Mesmo assim, temos alguns aprimoramentos interessantes, principalmente no esquema dos controles. Peace Walker, por exemplo, agora permite que o jogador controle a câmera com o analógico direito, algo que torna a experiência muito mais intuitiva do que em sua versão original. "
 	},
 	{
 		"id": 12,
@@ -127,9 +127,9 @@
 		"preco": "80,91",
 		"empresa": "EA Black Box",
 		"imagem": "need-for-speed-undercover.jpg",
-		"imagens": ["need-for-speed-undercover.jpg", "", ""],
+		"imagens": ["need-for-speed-undercover.jpg", "need-for-speed-undercoverimg2.jpg", "need-for-speed-undercoverimg3.jpg"],
 		"estrelas": 4,
-		"descricao": ""
+		"descricao": "Need For Speed Undercover enfatiza as perseguições policiais em um mundo atingido fortemente pelo crime internacional. Um sistema forte de missões e muitas opções de corrida fazem com que o jogo permita a você movimentos incríveis no limite máximo da direção. Reconheça e domine o sistema massivo de pistas e conheça toda a área das Três Cidades da Costa do Golfo, com três cidades inéditas ligadas por um extenso sistema rodoviário."
 	},
 	{
 		"id": 13,
@@ -138,9 +138,9 @@
 		"preco": "44,90",
 		"empresa": "MercurySteam",
 		"imagem": "castlevania-los-2.jpg",
-		"imagens": ["castlevania-los-2.jpg", "", ""],
+		"imagens": ["castlevania-los-2.jpg", "castlevania-los-2img2.jpg", "castlevania-los-2img3.jpg"],
 		"estrelas": 5,
-		"descricao": ""
+		"descricao": "Em Castlevania Lords of Shadow, a origem de Dracula e sua lendária conexão com os Belmonts é revelada. Em Castlevania Lords of Shadow 2, fãs podem esperar novas empolgantes revira-voltas e desafios. Nessa chocante conclusão para a saga Lords of Shadow, Dracula retorna mais uma vez, enfraquecido e aspirando se libertar de seus laços imortais. De frente a uma poderosa ameaça, o senhor vampiro deve readquirir seus antigos poderes - e apenas seu castelo mantém a chave. Porém o famoso clã Belmont também busca a sua destruição."
 	},
 	{
 		"id": 14,
@@ -149,9 +149,9 @@
 		"preco": "27,00",
 		"empresa": "Visceral Games",
 		"imagem": "dead-space-3.jpg",
-		"imagens": ["dead-space-3.jpg", "", ""],
+		"imagens": ["dead-space-3.jpg", "dead-space-3img2.jpg", "dead-space-3img3.jpg"],
 		"estrelas": 2,
-		"descricao": ""
+		"descricao": "Dead Space 3 é o terceiro título da saga de Isaac Clarke, no qual o destemido protagonista luta pela sua própria sanidade, pela sua sobrevivência e por todo o planeta Terra. Desta vez, Isaac não está sozinho e um segundo jogador, John Carver, pode ser adicionado à aventura, iniciando um modo cooperativo. Os dois protagonistas poderão utilizar o novo recurso de cover up, para se proteger dos tiros dos inimigos. Contando com uma nova gama de monstruosidades necromórficas, zumbifílcas, incluindo os novos Feeders e os conhecidos Unitólogos, Dead Space 3 disponibiliza armas mais poderosas e também mais criativas. Os jogadores ainda poderão coletar vários tipos diferentes de metal, derrubados pelos inimigos mortos, para modificar os armamentos."
 	},
 	{
 		"id": 15,
@@ -160,9 +160,9 @@
 		"preco": "44,90",
 		"empresa": "Frogwares",
 		"imagem": "crimes-punishment-sherlock-holmes.jpg",
-		"imagens": ["crimes-punishment-sherlock-holmes.jpg", "", ""],
+		"imagens": ["crimes-punishment-sherlock-holmes.jpg", "crimes-punishment-sherlock-holmesimg2.jpg", "crimes-punishment-sherlock-holmesimg3.jpg"],
 		"estrelas": 3,
-		"descricao": ""
+		"descricao": "Dinâmico e cativante, Crimes and Punishments é um jogo de investigação inovador a qual você vai assumir o papel de Sherlock Holmes em um ambiente realista e finamente detalhado preenchido com criminosos e pistas. Cabe a você para reunir provas sobre seis casos diferentes, e questionar e analisar todos os lugares e pessoas que encontrarem. Use as habilidades de detetive incríveis de Sherlock para examinar inúmeros detalhes em cada cena, e ver as conexões se reúnirem dentro do de seu cérebro! Escreva a sua própria história com uma variedade de escolhas morais e resultados. Cada caso tem até 8 finais diferentes."
 	},
 	{
 		"id": 16,
@@ -171,9 +171,9 @@
 		"preco": "44,90",
 		"empresa": "WB Interactive Entertainment",
 		"imagem": "batman-arkham-origins.jpg",
-		"imagens": ["batman-arkham-origins.jpg", "", ""],
+		"imagens": ["batman-arkham-origins.jpg", "batman-arkham-originsimg2.jpg", "batman-arkham-originsimg3.jpg"],
 		"estrelas": 5,
-		"descricao": ""
+		"descricao": "Batman: Arkham Origins conta com uma Gotham City ampliada e apresenta uma história original que se passa vários anos antes dos acontecimentos de Arkham Asylum e Arkham City. Antes da ascensão dos vilões e assassinos mais perigosos de Gotham City, o jogo mostra um Batman jovem e sem experiência que precisa enfrentar um momento decisivo no começo da sua carreira contra o crime e que o colocará no seu caminho para se transformar no Cavaleiro das Trevas. À medida que a história se desenrola, identidades e relações importantes serão formadas."
 	},
 	{
 		"id": 17,
@@ -182,9 +182,9 @@
 		"preco": "89,90",
 		"empresa": "Game Arts",
 		"imagem": "ragnarok-odyssey.jpg",
-		"imagens": ["ragnarok-odyssey.jpg", "", ""],
+		"imagens": ["ragnarok-odyssey.jpg", "ragnarok-odysseyimg2.jpg", "ragnarok-odysseyimg3.jpg"],
 		"estrelas": 3,
-		"descricao": ""
+		"descricao": "Ragnarok Odyssey ACE é uma versão evoluida e expandida do popular jogo de caça aos gigantes Ragnarok Odyssey. Com cross-jogo entre as versões PS Vita e PlayStation 3, Ragnarok Odyssey ACE inclui uma riqueza de outras características e conteúdos novos também. Novas habilidades ACE específicas de classe mudam a dinâmica de batalha significativamente, enquanto a adição de mercenários contratáveis no jogo garante que os jogadores possam ter um grupo de batalha completa no qual possam desafiar os inimigos mais difíceis, mesmo quando offline. A nova Torre de Yggdrasil, com seus níveis gerados aleatoriamente, garante que sempre haverá conteúdo exclusivo cada vez que o jogo for jogado. Patches de expansão futuros irão adicionar mais conteúdo novo, incluindo quests diárias, rankings, sorteios de itens da sorte e muito mais."
 	},
 	{
 		"id": 18,
@@ -193,9 +193,9 @@
 		"preco": "71,90",
 		"empresa": "EA Canada",
 		"imagem": "fifa-street.jpg",
-		"imagens": ["fifa-street.jpg", "", ""],
+		"imagens": ["fifa-street.jpg", "fifa-streetimg2.jpg", "fifa-streetimg3.jpg"],
 		"estrelas": 3,
-		"descricao": ""
+		"descricao": "FIFA Street revitaliza a antiga série de futebol de rua, com novos dribles, desafios e confrontos que qualquer peladeiro não irá perder por nada. Em cenários que vão do Japão até o Brasil, jogue partidas disputadas de 5 contra 5, onde o drible faz parte essencial do jogo. Os fãs de futebol poderão jogar com os maiores craques dos clubes de futebol mais populares do mundo mostrando toda a sua habilidade."
 	},
 	{
 		"id": 19,
@@ -204,9 +204,9 @@
 		"preco": "53,90",
 		"empresa": "Gearbox Software",
 		"imagem": "aliens-colonial-marines.jpg",
-		"imagens": ["aliens-colonial-marines.jpg", "", ""],
+		"imagens": ["aliens-colonial-marines.jpg", "aliens-colonial-marinesimg2.jpg", "aliens-colonial-marinesimg3.jpg"],
 		"estrelas": 4,
-		"descricao": ""
+		"descricao": "Aliens: Colonial Marines coloca você e seus amigos contra os maiores assassinos da gálaxia. Outro dia glorioso no batalhão. Levante-se soldado! Bem-vindo a Aliens: Colonial Marines. Criado pela Gearbox - estúdio responsável pelas criticamente aclamadas séries Borderlands e Brothers in Arms, esse jogo de tiro em primeira pessoa é mergulhado na atmosfera sinistra, claustrofóbica e aterradora que fez o filmes Aliens bem-sucedidos mundialmente. Em Aliens: Colonial Marines você e seus amigos irão virar os militares mais durões de toda a gálaxia - A US Colonial Marines não veio apenas para sobreviver, mas para limpar a infestação Xeno de uma vez!"
 	},
 	{
 		"id": 20,
@@ -215,9 +215,9 @@
 		"preco": "29,99",
 		"empresa": "Square Enix",
 		"imagem": "final-fantasy-xiii.jpg",
-		"imagens": ["final-fantasy-xiii.jpg", "", ""],
+		"imagens": ["final-fantasy-xiii.jpg", "final-fantasy-xiiiimg2.jpg", "final-fantasy-xiiiimg3.jpg"],
 		"estrelas": 2,
-		"descricao": ""
+		"descricao": "Final Fantasy XIII representa a entrada da série de RPG, que está com 20 anos de estrada, na nova geração de consoles. Final Fantasy XIII possui um enredo cinematográfico recheado de efeitos visuais, uma a trilha sonora de alta qualidade e animações feitas em computação gráfica, apresentando uma ambientação que combina com perfeição a mescla tecnológica e fantasiosa da série, com ordens religiosas, magia e divindades existindo lado a lado de naves espaciais, programas de televisão, lojas online e armas de fogo. O sistema de combate de segue o padrão de batalhas por turnos, mas com uma dinâmica de combate mais rápida e interessante, bem elaborada com batalhas de cair o queixo."
 	},
 	{
 		"id": 21,
@@ -226,9 +226,9 @@
 		"preco": "120,90",
 		"empresa": "Spicy Horse",
 		"imagem": "alice-madness-returns.jpg",
-		"imagens": ["alice-madness-returns.jpg", "", ""],
+		"imagens": ["alice-madness-returns.jpg", "alice-madness-returnsimg2.jpg", "alice-madness-returnsimg3.jpg"],
 		"estrelas": 4,
-		"descricao": ""
+		"descricao": "Depois de passar 10 anos internada em um manicômio, Alice volta a Londres, armada da poderosa lâmina Vorpal. A jogabilidade gira em torno de sequências de plataforma e combate, além da adição de novos equipamentos para enfrentar todos os perigos do País das Maravilhas."
 	},
 	{
 		"id": 22,
@@ -237,9 +237,9 @@
 		"preco": "89,90",
 		"empresa": "Activision",
 		"imagem": "bakugan-defenders.jpg",
-		"imagens": ["bakugan-defenders.jpg", "", ""],
+		"imagens": ["bakugan-defenders.jpg", "bakugan-defendersimg2.jpg", "bakugan-defendersimg3.jpg"],
 		"estrelas": 3,
-		"descricao": ""
+		"descricao": "Em Bakugan Defenders of the Core, diferentemente do primeiro jogo, a ideia agora é controlar as enormes criaturas em batalhas através de cidades cheias de gente, lançando raios, trocando golpes com o adversário e destruindo os prédios, exatamente igual aos seriados japoneses."
 	},
 	{
 		"id": 23,
@@ -248,31 +248,31 @@
 		"preco": "70,31",
 		"empresa": "Jun Takeuchi",
 		"imagem": "resident-evil-5.jpg",
-		"imagens": ["resident-evil-5.jpg", "", ""],
+		"imagens": ["resident-evil-5.jpg", "resident-evil-5img2.jpg", "resident-evil-5img3.jpg"],
 		"estrelas": 4,
-		"descricao": ""
+		"descricao": "Resident Evil 5 possui a jogabilidade com um sistema de movimentação e mira que favorece o combate contra inimigos rápidos, espertos e numerosos. A principal novidade implementada em Resident Evil 5 é a forma como Chris reage aos ambientes. A grande novidade é o modo cooperativo que permite que você e mais um amigo joguem esta aterrorizante aventura juntos. Você é Chris Redfield, o herói já conhecido de Resident Evil, e seguiu o caminho do mal ao redor do planeta e acaba na África, onde a última ameaça em bioterrorismo está literalmente transformando as pessoas e animais da cidade em criaturas enlouquecidas."
 	},
 	{
 		"id": 24,
 		"genero": ["Esporte"],
-		"nome": "2014 FIFA World Cup",
+		"nome": "2014 FIFA World Cup Brazil",
 		"preco": "9,99",
 		"empresa": "EA Canada",
 		"imagem": "2014-fifa.jpg",
-		"imagens": ["2014-fifa.jpg", "", ""],
+		"imagens": ["2014-fifa.jpg", "2014-fifaimg2.jpg", "2014-fifaimg3.jpg"],
 		"estrelas": 2,
-		"descricao": ""
+		"descricao": "Prepare-se para o maior evento esportivo do mundo com a EA SPORTS 2014 da Copa do Mundo da FIFA Brasil, agora disponível em todo o mundo para o PlayStation 3. Saia na frente e experimentar toda a diversão, emoção e drama do maior evento do futebol. Com várias melhorias e inovações na jogabilidade premiada de FIFA 14, mais de 100 novas animações, 203 equipas nacionais FIFA sancionadas, mais de 7.000 jogadores, 21 estádios, incluindo todas as 12 sedes da Copa do Mundo da FIFA, e mais de 15 horas de comentários acrescentou. Este é o título do torneio EA SPORTS FIFA mais acessível, divertido e emocionante disponível. A Copa do Mundo é um evento verdadeiramente memorável e que melhor maneira de entrar no espírito do que ficar em suas mãos EA SPORTS 2014 FIFA World Cup Brasil de hoje."
 	},
 	{
 		"id": 25,
 		"genero": ["Ação"],
-		"nome": "Diablo 3",
+		"nome": "Diablo III",
 		"preco": "79,90",
 		"empresa": "Blizzard Entertainment",
 		"imagem": "diablo-iii.jpg",
-		"imagens": ["diablo-iii.jpg", "", ""],
+		"imagens": ["diablo-iii.jpg", "diablo-iiiimg2.jpg", "diablo-iiiimg3.jpg"],
 		"estrelas": 4,
-		"descricao": ""
+		"descricao": "Diablo III é a continuação de uma das consagradas séries da Blizzard. Dando continuidade a história diretamente após o final de Diablo II: Lord of Destruction, Diablo 3 se passa 20 anos após o mal ter sido derrotado e banido do mundo de Santuário. Diablo 3 traz 5 classes disponíveis e o clássico gameplay que consagrou a série, como, exploração de diversos cenários e calabouços, uma enorme quantidade de itens para adquirir, e diversas habilidades incriveis para utilizar com cada personagem. O jogo traz diversas novidades, como o sistema de runas, encantamento de itens e muito mais."
 	},
 	{
 		"id": 26,
@@ -281,8 +281,8 @@
 		"preco": "80,90",
 		"empresa": "Ubisoft Montreal",
 		"imagem": "prince-of-persia-forgotten.jpg",
-		"imagens": ["prince-of-persia-forgotten.jpg", "", ""],
+		"imagens": ["prince-of-persia-forgotten.jpg", "prince-of-persia-forgottenimg2.jpg", "prince-of-persia-forgottenimg3.jpg"],
 		"estrelas": 4,
-		"descricao": ""
+		"descricao": "Prince of Persia Forgotten Sands é na realidade um interlúdio do arco de histórias Sands of Time, aproveitando o mesmo protagonista, ambientação e alguns elementos da jogabilidade. O jogo aproveita vários elementos dos títulos que compõem a trilogia Sands of Time, como a utilização das areias do tempo para manipular o tempo, retrocedendo alguns segundos, evitando assim algumas armadilhas presentes no caminho do Príncipe."
 	}
 ]
