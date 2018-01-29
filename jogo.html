@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 	<title>Jogo</title>
-	<meta charset="utf-8"/>
+	<meta charset="utf-8" />
 	<meta name="description" content="Vitrine de Jogos!">
 	<meta name="keywords" content="HTML, Jogos, XBox 360, XBox One, PlayStation 3, PlayStation 4">
 	<meta name="author" content="Josiel Alves de Matos">
@@ -14,77 +15,101 @@
 	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
 </head>
 <style>
-.base-info-jogo {
-	margin: auto;
-}
-.slide-jogo {
-	display: none;
-}
-.section-jogo {
-	margin-top: 16px !important;
-	margin-bottom: 16px !important;
-}
-.linha-padding-jogo:after, .linha-padding-jogo:before {
-	content: "";
-	display: table;
-	clear: both;
-}
-.slide-col-jogo {
-	float: left;
-	width: 100%;
-}
-.slide-col-jogo.s4 {
-	width: 30.33333%;
-	margin: auto 5px;
-	overflow: hidden;
-	max-height: 120px;
-	text-align: center;
-}
-.demo {
-	cursor: pointer;
-	height: 120px;
-}
-.slide-jogo-opacity, .slide-jogo-hover-opacity:hover {
-	opacity: 0.60;
-}
-.slide-jogo-opacity-off, .slide-jogo-hover-opacity-off:hover {
-	opacity: 1;
-}
-.jogo-estrela .base-estrela{
-	font-size: 20px;
-}
-.preco-jogo {
-	font-size: 45px;
-	color: black;
-	margin: 30px auto 50px;
-	font-weight: bold;
-}
-.descricao-jogo {
-	font-size: 16px;
-	background-color: #F0F0F0;
-	padding: 10px;
-	text-align: left;
-	color: black;
-	display: unset;
-	margin: 0;
-	font-weight: bold;
-}
-.texto-descricao-jogo {
-	font-size: 14px;
-	line-height: 1.8em;
-	background-color: #F0F0F0;
-	padding: 10px;
-	margin: 0;
-	text-align: left;
-	color: #666666;
-	font-weight: normal;
-}
-@media all and (max-width: 990px) {
-	.jogo .col6{
+	.base-info-jogo {
+		margin: auto;
+	}
+
+	.slide-jogo {
+		display: none;
+	}
+
+	.section-jogo {
+		margin-top: 16px !important;
+		margin-bottom: 16px !important;
+	}
+
+	.linha-padding-jogo:after,
+	.linha-padding-jogo:before {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.slide-col-jogo {
+		float: left;
+		width: 100%;
+	}
+
+	.slide-col-jogo.s4 {
+		width: 30.33333%;
+		margin: auto 5px;
+		overflow: hidden;
+		max-height: 120px;
 		text-align: center;
 	}
-}
+
+	.demo {
+		cursor: pointer;
+		height: 120px;
+	}
+
+	.slide-jogo-opacity,
+	.slide-jogo-hover-opacity:hover {
+		opacity: 0.60;
+	}
+
+	.slide-jogo-opacity-off,
+	.slide-jogo-hover-opacity-off:hover {
+		opacity: 1;
+	}
+
+	.jogo-estrela .base-estrela {
+		font-size: 20px;
+	}
+
+	.preco-jogo {
+		font-size: 45px;
+		color: black;
+		margin: 30px auto 50px;
+		font-weight: bold;
+	}
+
+	.descricao-jogo {
+		font-size: 16px;
+		background-color: #F0F0F0;
+		padding: 10px;
+		text-align: left;
+		color: black;
+		display: unset;
+		margin: 0;
+		font-weight: bold;
+	}
+
+	.texto-descricao-jogo {
+		font-size: 14px;
+		line-height: 1.8em;
+		background-color: #F0F0F0;
+		padding: 10px;
+		margin: 0;
+		text-align: left;
+		color: #666666;
+		font-weight: normal;
+	}
+
+	@media all and (max-width: 990px) {
+		.jogo .col6 {
+			text-align: center;
+		}
+	}
+
+	@media all and (max-width: 385px) {
+		.slide-col-jogo.s4 {
+			width: 100%;
+			margin: 5px 5px;
+		}
+	}
 </style>
+
 <body>
 	<header id="cabecalho"></header>
 	<div class="grade">
@@ -120,39 +145,39 @@
 	var breadCumb = document.getElementById("breadCumb");
 	var slideIndexJogo = 1;
 
-	if(plataforma == "ps3") {
+	if (plataforma == "ps3") {
 		breadCumb.classList.add("vinho");
 		breadPlataforma.innerHTML = "<a href='playstation3.html'>PlayStation 3</a>";
-		$.get('./json/ps3.json', function(res) {
+		$.get('./json/ps3.json', function (res) {
 			carregarJogo(res);
 		});
-	} else if(plataforma == "ps4") {
+	} else if (plataforma == "ps4") {
 		breadCumb.classList.add("azul-claro");
 		breadPlataforma.innerHTML = "<a href='playstation4.html'>PlayStation 4</a>";
-		$.get('./json/ps4.json', function(res) {
+		$.get('./json/ps4.json', function (res) {
 			carregarJogo(res);
 		});
-	} else if(plataforma == "xbox360"){
+	} else if (plataforma == "xbox360") {
 		breadCumb.classList.add("amarelo");
 		breadPlataforma.innerHTML = "<a href='xbox360.html'>XBox 360</a>";
-		$.get('./json/xbox360.json', function(res) {
+		$.get('./json/xbox360.json', function (res) {
 			carregarJogo(res);
 		});
-	} else if(plataforma == "xboxone"){
+	} else if (plataforma == "xboxone") {
 		breadCumb.classList.add("roxo");
 		breadPlataforma.innerHTML = "<a href='xboxone.html'>XBox One</a>";
-		$.get('./json/xboxone.json', function(res) {
+		$.get('./json/xboxone.json', function (res) {
 			carregarJogo(res);
 		});
 	}
 
-	function carregarJogo(res){
+	function carregarJogo(res) {
 		var baseInfoJogo = document.getElementById("baseInfoJogo");
 		var breadNome = document.getElementById("breadNome");
 		var html = '';
 
-		for(var i = 0; i < res.length; i++){
-			if(res[i].id == idJogo){
+		for (var i = 0; i < res.length; i++) {
+			if (res[i].id == idJogo) {
 				breadNome.innerText = res[i].nome;
 				var estrela1 = res[i].estrelas >= 1 ? "estrela-ativa" : "";
 				var estrela2 = res[i].estrelas >= 2 ? "estrela-ativa" : "";
@@ -188,9 +213,10 @@
 		for (i = 0; i < dots.length; i++) {
 			dots[i].className = dots[i].className.replace(" slide-jogo-opacity-off", "");
 		}
-		x[slideIndexJogo-1].style.display = "block";
-		dots[slideIndexJogo-1].className += " slide-jogo-opacity-off";
+		x[slideIndexJogo - 1].style.display = "block";
+		dots[slideIndexJogo - 1].className += " slide-jogo-opacity-off";
 	}
 
 </script>
+
 </html>
