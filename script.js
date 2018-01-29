@@ -46,10 +46,6 @@ function styloMenu() {
         var inicio = document.getElementById("inicio");
         inicio.style.borderBottom = '10px solid #004A87';
         inicio.style.color = '#004A87';
-    } else if (url_atual.includes("pc")) {
-        var pc = document.getElementById("pc");
-        pc.style.borderBottom = '10px solid #197401';
-        pc.style.color = '#197401';
     } else if (url_atual.includes("xbox360") || url_atual.includes("xb360")) {
         var xbox360 = document.getElementById("xbox360");
         xbox360.style.borderBottom = '10px solid #FAA61E';
@@ -90,10 +86,10 @@ function styloMenu() {
                 carregarTodosJogosPs4();
             })
         }
-    } else if (url_atual.includes("jogos")) {
-        var play4 = document.getElementById("playstation4");
-        play4.style.borderBottom = '10px solid #FF5722';
-        play4.style.color = '#FF5722';
+    } else if (url_atual.includes("contato")) {
+        var contato = document.getElementById("contato");
+        contato.style.borderBottom = '10px solid #FF5722';
+        contato.style.color = '#FF5722';
     }
 }
 
