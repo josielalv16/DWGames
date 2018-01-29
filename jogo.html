@@ -88,7 +88,7 @@
 <body>
 	<header id="cabecalho"></header>
 	<div class="grade">
-		<div class="breadcumb vinho">
+		<div class="breadcumb" id="breadCumb">
 			<div>
 				<a href="inicio.html">Inicio</a>
 			</div>
@@ -117,24 +117,29 @@
 	var idJogo = consoleId.split("&")[0];
 	var plataforma = consoleId.split("&")[1];
 	var breadPlataforma = document.getElementById("breadPlataforma");
+	var breadCumb = document.getElementById("breadCumb");
 	var slideIndexJogo = 1;
 
 	if(plataforma == "ps3") {
+		breadCumb.classList.add("vinho");
 		breadPlataforma.innerHTML = "<a href='playstation3.html'>PlayStation 3</a>";
 		$.get('./json/ps3.json', function(res) {
 			carregarJogo(res);
 		});
 	} else if(plataforma == "ps4") {
+		breadCumb.classList.add("azul-claro");
 		breadPlataforma.innerHTML = "<a href='playstation4.html'>PlayStation 4</a>";
 		$.get('./json/ps4.json', function(res) {
 			carregarJogo(res);
 		});
 	} else if(plataforma == "xbox360"){
+		breadCumb.classList.add("amarelo");
 		breadPlataforma.innerHTML = "<a href='xbox360.html'>XBox 360</a>";
 		$.get('./json/xbox360.json', function(res) {
 			carregarJogo(res);
 		});
 	} else if(plataforma == "xboxone"){
+		breadCumb.classList.add("roxo");
 		breadPlataforma.innerHTML = "<a href='xboxone.html'>XBox One</a>";
 		$.get('./json/xboxone.json', function(res) {
 			carregarJogo(res);

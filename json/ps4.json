@@ -8,7 +8,8 @@
 		"imagem": "dragon-ball-fighterz.jpg",
 		"imagens": ["dragon-ball-fighterz.jpg", "dragon-ball-fighterzimg2.jpg", "dragon-ball-fighterzimg3.jpg"],
 		"estrelas": 5,
-		"descricao": "Dragon Ball FighterZ é o novo jogo de luta da franquia mais famosa do mundo dos animes. O jogo conta com batalhas de três contra três e os jogadores podem executar combos em conjunto com os outros personagens, lembrando o estilo de Marvel vs Capcom. Em Dragon Ball FighterZ você irá jogar uma campanha com Goku, durante sua aventura será possível explorar o mundo e se conectar com outros personagens! A nova vilã dessa saga é a Androide 21, que está trazendo de volta antigos vilões e clonando os heróis da terra. Com gráficos renovados e um estilo 2-D, você vai embarcar nesse mundo de Dragon Ball FighterZ, com lutas frenéticas e incríveis!"
+		"descricao": "Dragon Ball FighterZ é o novo jogo de luta da franquia mais famosa do mundo dos animes. O jogo conta com batalhas de três contra três e os jogadores podem executar combos em conjunto com os outros personagens, lembrando o estilo de Marvel vs Capcom. Em Dragon Ball FighterZ você irá jogar uma campanha com Goku, durante sua aventura será possível explorar o mundo e se conectar com outros personagens! A nova vilã dessa saga é a Androide 21, que está trazendo de volta antigos vilões e clonando os heróis da terra. Com gráficos renovados e um estilo 2-D, você vai embarcar nesse mundo de Dragon Ball FighterZ, com lutas frenéticas e incríveis!",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 2,
@@ -16,10 +17,11 @@
 		"nome": "Injustice: Gods Among Us",
 		"preco": "89,90",
 		"empresa": "NetherRealm Studios",
-		"imagem": "injustice-ultimate-edition",
+		"imagem": "injustice-ultimate-edition.jpg",
 		"imagens": ["injustice-ultimate-edition.jpg", "injustice-ultimate-editionimg2.jpg", "injustice-ultimate-editionimg3.jpg"],
 		"estrelas": 4,
-		"descricao": "Injustice: Gods Among Us chega para o PS4 em sua versão Ultimate Edition, que inclui todos os extras já lançados após o lançamento do jogo. O jogo fora produzido pela NetherRealm Studios, criadora do Mortal Kombat, que fora sucesso de crítica e público. Produzido com uma versão modificada do motor gráfico Unreal Engine 3, o jogo apresenta um visual mais detalhado do que Mortal Kombat. Injustice: Gods Among Us é um jogo de luta que coloca os jogadores a controlar personagens do universo da DC Comics em combate uns contra os outros. Os personagens disponíveis são: Batman, Mulher-Maravilha, Flash, Arlequina, Solomon Grundy, Asa Noturna, Arqueiro Verde, Coringa, Superman, Ciborgue, Exterminador, Bane, Lex Luthor, Mulher-Gato, Lanterna Verde, Sinestro, Mulher-Gavião, Shazam!, Aquaman, Ravena, Apocalipse Lobo, Caçador de Marte, Batgirl, Zatana e General Zod."
+		"descricao": "Injustice: Gods Among Us chega para o PS4 em sua versão Ultimate Edition, que inclui todos os extras já lançados após o lançamento do jogo. O jogo fora produzido pela NetherRealm Studios, criadora do Mortal Kombat, que fora sucesso de crítica e público. Produzido com uma versão modificada do motor gráfico Unreal Engine 3, o jogo apresenta um visual mais detalhado do que Mortal Kombat. Injustice: Gods Among Us é um jogo de luta que coloca os jogadores a controlar personagens do universo da DC Comics em combate uns contra os outros. Os personagens disponíveis são: Batman, Mulher-Maravilha, Flash, Arlequina, Solomon Grundy, Asa Noturna, Arqueiro Verde, Coringa, Superman, Ciborgue, Exterminador, Bane, Lex Luthor, Mulher-Gato, Lanterna Verde, Sinestro, Mulher-Gavião, Shazam!, Aquaman, Ravena, Apocalipse Lobo, Caçador de Marte, Batgirl, Zatana e General Zod.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 3,
@@ -30,7 +32,8 @@
 		"imagem": "nfs-rivals.jpg",
 		"imagens": ["nfs-rivals.jpg", "nfs-rivalsimg2.jpg", "nfs-rivalsimg3.jpg"],
 		"estrelas": 3,
-		"descricao": "Need for Speed: Rivals une o que há de melhor dos jogos de corrida da franquia para criar um estilo único e manter a qualidade. O jogo possui um mundo aberto a explorar, como em Most Wanted, enquanto apresenta desafios e perseguições policiais ao estilo de Hot Pursuit. Dessa vez, o jogo te dá a opção de ser um corredor ou um policial! O Autolog de Hot Pursuit também está de volta, para que você possa desafiar seus amigos sobre quem obterá as melhores classificações e recordes! O novo sistema social All Drive permite juntar seis jogadores online para que compartilhem entre si informações e desafios e possam interagir uns com os outros, podendo formar equipes e receber bonficações. É possível também fazer ajustes e melhorias nos carros para obter vantagens e facilitar as corridas."
+		"descricao": "Need for Speed: Rivals une o que há de melhor dos jogos de corrida da franquia para criar um estilo único e manter a qualidade. O jogo possui um mundo aberto a explorar, como em Most Wanted, enquanto apresenta desafios e perseguições policiais ao estilo de Hot Pursuit. Dessa vez, o jogo te dá a opção de ser um corredor ou um policial! O Autolog de Hot Pursuit também está de volta, para que você possa desafiar seus amigos sobre quem obterá as melhores classificações e recordes! O novo sistema social All Drive permite juntar seis jogadores online para que compartilhem entre si informações e desafios e possam interagir uns com os outros, podendo formar equipes e receber bonficações. É possível também fazer ajustes e melhorias nos carros para obter vantagens e facilitar as corridas.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 4,
@@ -41,7 +44,8 @@
 		"imagem": "murdered-soul-suspect.jpg",
 		"imagens": ["murdered-soul-suspect.jpg", "murdered-soul-suspectimg2.jpg", "murdered-soul-suspectimg3.jpg"],
 		"estrelas": 4,
-		"descricao": "Murdered: Soul Suspect é um thriller detetive sobrenatural que desafia os jogadores a resolver, possivelmente, o caso mais difícil de todos... o seu próprio assassinato. Quando Ronan O'Connor, um detetive com um passado duvidoso, se vê envolvido em um assalto violento, a sua vida é levado a um fim prematuro por um assassino brutal e implacável. Chocado ao encontrar-se em vida após a morte, sua única saída para o mundo limbo de 'Crepúsculo' é para descobrir a verdade por trás de seu assassino, localizá-lo e trazê-lo à justiça usando seu instinto de detetive e recém-descobertas habilidades sobrenaturais. Como Ronan, você tem a liberdade para explorar a cidade moderna de Salem: suas casas de madeira em estilo New England, ruas estreitas, igrejas góticas e asilo para doentes mentais em busca de pistas. Batalha espíritos demoníacos para salvar a sua alma e descobrir as revelações chocantes sobre quem é responsável pela sua morte."
+		"descricao": "Murdered: Soul Suspect é um thriller detetive sobrenatural que desafia os jogadores a resolver, possivelmente, o caso mais difícil de todos... o seu próprio assassinato. Quando Ronan O'Connor, um detetive com um passado duvidoso, se vê envolvido em um assalto violento, a sua vida é levado a um fim prematuro por um assassino brutal e implacável. Chocado ao encontrar-se em vida após a morte, sua única saída para o mundo limbo de 'Crepúsculo' é para descobrir a verdade por trás de seu assassino, localizá-lo e trazê-lo à justiça usando seu instinto de detetive e recém-descobertas habilidades sobrenaturais. Como Ronan, você tem a liberdade para explorar a cidade moderna de Salem: suas casas de madeira em estilo New England, ruas estreitas, igrejas góticas e asilo para doentes mentais em busca de pistas. Batalha espíritos demoníacos para salvar a sua alma e descobrir as revelações chocantes sobre quem é responsável pela sua morte.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 5,
@@ -52,7 +56,8 @@
 		"imagem": "the-last-of-us.jpg",
 		"imagens": ["the-last-of-us.jpg", "the-last-of-usimg2.jpg", "the-last-of-usimg3.jpg"],
 		"estrelas": 3,
-		"descricao": "The Last of Us é um gransioso jogo desenvolvido pela renomada Naughty Dog a qual traz um gameplay de ação e tiro estilo sobrevivência. No jogo é necessário que o jogador busque recursos no cenário para poder criar itens (como bandagens), usar de abordagens furtivas e estrátegicas com o intuito de sobreviver. O enredo de The Last of Us se passa vinte anos após uma epidemia que mudou radicalmente a civilização como a conhecemos, os humanos infectados correm descontrolados e os sobreviventes estão se matando por comida e munição. Joel, um sobrevivente violento, é contratado para contrabandear Ellie, uma garota de 14 anos, para fora de uma opressiva área de quarentena. O que começa como um pequeno trabalho se transforma em uma jornada brutal através dos Estados Unidos."
+		"descricao": "The Last of Us é um gransioso jogo desenvolvido pela renomada Naughty Dog a qual traz um gameplay de ação e tiro estilo sobrevivência. No jogo é necessário que o jogador busque recursos no cenário para poder criar itens (como bandagens), usar de abordagens furtivas e estrátegicas com o intuito de sobreviver. O enredo de The Last of Us se passa vinte anos após uma epidemia que mudou radicalmente a civilização como a conhecemos, os humanos infectados correm descontrolados e os sobreviventes estão se matando por comida e munição. Joel, um sobrevivente violento, é contratado para contrabandear Ellie, uma garota de 14 anos, para fora de uma opressiva área de quarentena. O que começa como um pequeno trabalho se transforma em uma jornada brutal através dos Estados Unidos.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 6,
@@ -63,7 +68,8 @@
 		"imagem": "the-king-of-fighters-xiv.jpg",
 		"imagens": ["the-king-of-fighters-xiv.jpg", "the-king-of-fighters-xivimg2.jpg", "the-king-of-fighters-xivimg3.jpg"],
 		"estrelas": 4,
-		"descricao": "The King of Fighters XIV PS4 um clássico retorna! Com personagens e estilos de luta únicos, The King Of Fighters é um clássico consagrado e está de volta para o PS4. The king of fighters XIV é focado na luta, como sempre foi, mas traz seu enredo explicado em alguns momentos do game. Em The King of fighters XIV você verá os antigos e já muito conhecidos personagens jogáveis, mas também encontrará rostos novos como o trio Sulamericano. O enredo de The King of Fighters XIV se dá quando Antonov, o novo chefe do torneio comprou os direitos de exibição do The King of Fighters promovendo assim mais um torneio com lutadores de diversos cantos do mundo. Lutadores se encontrarão para descobrir quem é o melhor deles e resolver diferenças pessoais."
+		"descricao": "The King of Fighters XIV PS4 um clássico retorna! Com personagens e estilos de luta únicos, The King Of Fighters é um clássico consagrado e está de volta para o PS4. The king of fighters XIV é focado na luta, como sempre foi, mas traz seu enredo explicado em alguns momentos do game. Em The King of fighters XIV você verá os antigos e já muito conhecidos personagens jogáveis, mas também encontrará rostos novos como o trio Sulamericano. O enredo de The King of Fighters XIV se dá quando Antonov, o novo chefe do torneio comprou os direitos de exibição do The King of Fighters promovendo assim mais um torneio com lutadores de diversos cantos do mundo. Lutadores se encontrarão para descobrir quem é o melhor deles e resolver diferenças pessoais.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 7,
@@ -74,7 +80,8 @@
 		"imagem": "rainbow-six-siege.jpg",
 		"imagens": ["rainbow-six-siege.jpg", "rainbow-six-siegeimg2.jpg", "rainbow-six-siegeimg3.jpg"],
 		"estrelas": 4,
-		"descricao": "Rainbow Six Siege é uma nova e intensa abordagem para a experiência de tiro em primeira pessoa. Escolha dentre uma variedade de Operadores Anti-Terroristas e domine suas habilidades enquanto lidera sua equipe através de um combate intenso, destruitivo e emocionante com foco em trabalho de equipe. O combate de Rainbow Six Siege é focado em estratégia e táticas de 5 contra 5. Infiltração contra Fortificação. Rainbow Six Siege traz um ambiente ao seu redor é altamente destrutivo, criando assim abordagens estratégicas únicas!"
+		"descricao": "Rainbow Six Siege é uma nova e intensa abordagem para a experiência de tiro em primeira pessoa. Escolha dentre uma variedade de Operadores Anti-Terroristas e domine suas habilidades enquanto lidera sua equipe através de um combate intenso, destruitivo e emocionante com foco em trabalho de equipe. O combate de Rainbow Six Siege é focado em estratégia e táticas de 5 contra 5. Infiltração contra Fortificação. Rainbow Six Siege traz um ambiente ao seu redor é altamente destrutivo, criando assim abordagens estratégicas únicas!",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 8,
@@ -85,7 +92,8 @@
 		"imagem": "one-piece-3.jpg",
 		"imagens": ["one-piece-3.jpg", "one-piece-3img2.jpg", "one-piece-3img3.jpg"],
 		"estrelas": 2,
-		"descricao": "Em One Piece: Pirate Warriors 3 aproveite o enredo original de One Piece, desde o vilarejo de Fuschia, onde tudo começou, até o reino de Dressrosa, uma misteriosa ilha dominada pelo maligno Donquixote Doflamingo. Seria a sua resolução forte o bastante para derrotar os mais perigosos piratas, incluindo Doflamingo e muitos outros? Reúna todos os membros da tripulação do Chapéu de Palha, como na história original, velege até os lugares mais emblemáticos, e entre nos mais épicos confrontos: Marineford, Fish-Man island, Punk Hazard e Dressrosa! Trazendo todos os personagens preferidos da série junto a um gameplay ampliado, melhorado, e cheio de ação, One Piece: Pirate Warrios 3 traz toda a emoção da grandiosa série One Piece!"
+		"descricao": "Em One Piece: Pirate Warriors 3 aproveite o enredo original de One Piece, desde o vilarejo de Fuschia, onde tudo começou, até o reino de Dressrosa, uma misteriosa ilha dominada pelo maligno Donquixote Doflamingo. Seria a sua resolução forte o bastante para derrotar os mais perigosos piratas, incluindo Doflamingo e muitos outros? Reúna todos os membros da tripulação do Chapéu de Palha, como na história original, velege até os lugares mais emblemáticos, e entre nos mais épicos confrontos: Marineford, Fish-Man island, Punk Hazard e Dressrosa! Trazendo todos os personagens preferidos da série junto a um gameplay ampliado, melhorado, e cheio de ação, One Piece: Pirate Warrios 3 traz toda a emoção da grandiosa série One Piece!",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 9,
@@ -96,7 +104,8 @@
 		"imagem": "just-dance-2015.jpg",
 		"imagens": ["just-dance-2015.jpg", "just-dance-2015img2.jpg", "just-dance-2015img3.jpg"],
 		"estrelas": 4,
-		"descricao": "Milhões de dançarinos! Milhões de histórias! Just Dance 2015 é a mais recente e incrível versão do jogo de dança nº 1 do mundo! Com mais de 50 milhões de cópias de Just Dance em casas por todo o mundo, nossos jogadores são muito importantes e as novidades em Just Dance 2015 unirão as pessoas em mais maneiras do que nunca. Pela primeira vez na história, você também pode estar no jogo. O novo recurso Community Remix coloca os jogadores no centro das atenções globais, permitindo-lhes a se tornarem um treinador Just Dance, onde jogadores de todos os cantos podem dançar junto. Just Dance 2015 também introduz o modo Challenger, onde os jogadores serão capazes de competir contra seus desempenhos passados ou desafiar amigos em qualquer lugar para bater a sua pontuação, mesmo se não puderem jogar ao mesmo tempo. Além disso, este ano estamos trazendo ainda mais emoção ao World Dance Floor, o modo multiplayer online."
+		"descricao": "Milhões de dançarinos! Milhões de histórias! Just Dance 2015 é a mais recente e incrível versão do jogo de dança nº 1 do mundo! Com mais de 50 milhões de cópias de Just Dance em casas por todo o mundo, nossos jogadores são muito importantes e as novidades em Just Dance 2015 unirão as pessoas em mais maneiras do que nunca. Pela primeira vez na história, você também pode estar no jogo. O novo recurso Community Remix coloca os jogadores no centro das atenções globais, permitindo-lhes a se tornarem um treinador Just Dance, onde jogadores de todos os cantos podem dançar junto. Just Dance 2015 também introduz o modo Challenger, onde os jogadores serão capazes de competir contra seus desempenhos passados ou desafiar amigos em qualquer lugar para bater a sua pontuação, mesmo se não puderem jogar ao mesmo tempo. Além disso, este ano estamos trazendo ainda mais emoção ao World Dance Floor, o modo multiplayer online.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 10,
@@ -107,7 +116,8 @@
 		"imagem": "saints-row-IV.jpg",
 		"imagens": ["saints-row-IV.jpg", "saints-row-IVimg2.jpg", "saints-row-IVimg3.jpg"],
 		"estrelas": 5,
-		"descricao": "Saints Row IV: Re-Elected + Gat out of Hell é muito mais do que um jogo. É um passaporte para a diversão e magia. Pule por cima de prédios, cante músicas, lute em jogos 2D, cure o câncer, salve o Papai Noel...Tudo isso e muito mais aguardam você ao jogar Saints Row IV: Re-Elected, um bundle especial que inclui o blockbuster ganhador de prêmios Saints Row IV e todos os seus DLCs + a expansão Saints Row Gat out of Hell."
+		"descricao": "Saints Row IV: Re-Elected + Gat out of Hell é muito mais do que um jogo. É um passaporte para a diversão e magia. Pule por cima de prédios, cante músicas, lute em jogos 2D, cure o câncer, salve o Papai Noel...Tudo isso e muito mais aguardam você ao jogar Saints Row IV: Re-Elected, um bundle especial que inclui o blockbuster ganhador de prêmios Saints Row IV e todos os seus DLCs + a expansão Saints Row Gat out of Hell.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 11,
@@ -118,7 +128,8 @@
 		"imagem": "ufc2.jpg",
 		"imagens": ["ufc2.jpg", "ufc2img2.jpg", "ufc2img3.jpg"],
 		"estrelas": 3,
-		"descricao": "UFC 2 traz gráficos ainda mais realistas e uma lista atualizada de lutadores e ringues. Em UFC 2, pela primeira vez teremos lutadoras femininas subindo ao ringue, como a famosa Ronda Rousey! UFC 2 traz mais de 250 atletas, sistema de golpes remodelado e inéditos modos de jogo, o título chega para ser a versão definitiva dos octógonos virtuais."
+		"descricao": "UFC 2 traz gráficos ainda mais realistas e uma lista atualizada de lutadores e ringues. Em UFC 2, pela primeira vez teremos lutadoras femininas subindo ao ringue, como a famosa Ronda Rousey! UFC 2 traz mais de 250 atletas, sistema de golpes remodelado e inéditos modos de jogo, o título chega para ser a versão definitiva dos octógonos virtuais.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 12,
@@ -129,7 +140,8 @@
 		"imagem": "watch-dogs.jpg",
 		"imagens": ["watch-dogs.jpg", "watch-dogsimg2.jpg", "watch-dogsimg3.jpg"],
 		"estrelas": 4,
-		"descricao": "Jogue como Aiden Pearce, um hacker brilhante, cujo passado criminoso levou a uma tragédia familiar violenta. Agora na caça para aqueles que ferem sua família, monitore e corte todos os que te cercam, manipulando tudo conectado à rede da cidade. Acesse as onipresentes câmeras de segurança, faça o download de informações pessoais para localizar um alvo, controle semáforos e transportes públicos para parar o inimigo e muito mais. Use a cidade de Chicago como sua grande arma e exija o seu próprio estilo de vingança."
+		"descricao": "Jogue como Aiden Pearce, um hacker brilhante, cujo passado criminoso levou a uma tragédia familiar violenta. Agora na caça para aqueles que ferem sua família, monitore e corte todos os que te cercam, manipulando tudo conectado à rede da cidade. Acesse as onipresentes câmeras de segurança, faça o download de informações pessoais para localizar um alvo, controle semáforos e transportes públicos para parar o inimigo e muito mais. Use a cidade de Chicago como sua grande arma e exija o seu próprio estilo de vingança.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 13,
@@ -140,7 +152,8 @@
 		"imagem": "rayman-legends.jpg",
 		"imagens": ["rayman-legends.jpg", "rayman-legendsimg2.jpg", "rayman-legendsimg3.jpg"],
 		"estrelas": 3,
-		"descricao": "Rayman Legends é mais um clássico da Ubisoft que traz diversão e beleza em seus gráficos. Aclamado pela crítica, você pode jogar com até 4 jogadores com a possibilidade de escolher uma nova personagem feminina. Uma história simples onde você deve salvar os lumens e derrotar todos os chefes que estão aprisionando essas criaturas. Rayman Legends é um jogo simples, mas desafiador, você vai se aventurar entre mais de 100 fases e liberar conteúdos bônus no decorrer do jogo. Uma mecânica de jogo de plataforma onde você deve destruir seus inimigos e completar as fases. Rayman Legends proporciona horas de diversão e a sensação de estar entrando em um mundo mágico de desenhos animados."
+		"descricao": "Rayman Legends é mais um clássico da Ubisoft que traz diversão e beleza em seus gráficos. Aclamado pela crítica, você pode jogar com até 4 jogadores com a possibilidade de escolher uma nova personagem feminina. Uma história simples onde você deve salvar os lumens e derrotar todos os chefes que estão aprisionando essas criaturas. Rayman Legends é um jogo simples, mas desafiador, você vai se aventurar entre mais de 100 fases e liberar conteúdos bônus no decorrer do jogo. Uma mecânica de jogo de plataforma onde você deve destruir seus inimigos e completar as fases. Rayman Legends proporciona horas de diversão e a sensação de estar entrando em um mundo mágico de desenhos animados.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 14,
@@ -151,7 +164,8 @@
 		"imagem": "just-cause-3.jpg",
 		"imagens": ["just-cause-3.jpg", "just-cause-3img2.jpg", "just-cause-3img3.jpg"],
 		"estrelas": 4,
-		"descricao": "Rico Rodriguez está de volta em Just Cause 3, para salvar a República de Medici sua terra natal, que está sobre o domínio do tirâno General Di Ravello. O grande foco de Just Cause 3 é a liberdade no jogo, com mais de 1000 quilômetros quadrados de pura liberdade, desde o céu até o oceano, com um arsenal enorme de armas, dispositivos e veículos e o diferencial de grande parte do cenário ser totalmente destrutivo. Just Cause 3 traz duas grandes novidades como a Wing Suit que permite que você possa planar pelos ares e deixar a movimentação pelo cenário mais dinâmica."
+		"descricao": "Rico Rodriguez está de volta em Just Cause 3, para salvar a República de Medici sua terra natal, que está sobre o domínio do tirâno General Di Ravello. O grande foco de Just Cause 3 é a liberdade no jogo, com mais de 1000 quilômetros quadrados de pura liberdade, desde o céu até o oceano, com um arsenal enorme de armas, dispositivos e veículos e o diferencial de grande parte do cenário ser totalmente destrutivo. Just Cause 3 traz duas grandes novidades como a Wing Suit que permite que você possa planar pelos ares e deixar a movimentação pelo cenário mais dinâmica.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 15,
@@ -162,7 +176,8 @@
 		"imagem": "until-dawn.jpg",
 		"imagens": ["until-dawn.jpg", "until-dawnimg2.jpg", "until-dawnimg3.jpg"],
 		"estrelas": 5,
-		"descricao": "Em Until Dawn jogue com cada um dos oito personagens disponíveis e experimente o medo como nunca antes. Cada decisão tomada por você em busca de aterrorizantes respostas pode ser a diferença entre a vida e a morte, mas para quem? Apenas as suas decisões irão decidir quem sobrevive até o amanhecer em Until Dawn. Until Dawn traz gráficos de ponta somado a um enredo imersivo onde cada escolha feita gera uma consequência e mudanças diferentes, garantindo um gameplay distinto para duas pessoas diferentes."
+		"descricao": "Em Until Dawn jogue com cada um dos oito personagens disponíveis e experimente o medo como nunca antes. Cada decisão tomada por você em busca de aterrorizantes respostas pode ser a diferença entre a vida e a morte, mas para quem? Apenas as suas decisões irão decidir quem sobrevive até o amanhecer em Until Dawn. Until Dawn traz gráficos de ponta somado a um enredo imersivo onde cada escolha feita gera uma consequência e mudanças diferentes, garantindo um gameplay distinto para duas pessoas diferentes.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 16,
@@ -173,7 +188,8 @@
 		"imagem": "back-to-the-future.jpg",
 		"imagens": ["back-to-the-future.jpg", "back-to-the-futureimg2.jpg", "back-to-the-futureimg3.jpg"],
 		"estrelas": 2,
-		"descricao": "Prepare-se para viajar no tempo e espaço com Back to the Future: The Game! O jogo que traz ainda mais do mundo da série de filmes De Volta Para o Futuro. É uma experiência repleta de contéudo que vai desde diversos puzzles e aventuras ao melhor estilo point-and-click. Com a mesma genialidade do filme e muitos extras e adicionais, Back to the Future: The Game é um título que certamente será inesquecível para os fãs."
+		"descricao": "Prepare-se para viajar no tempo e espaço com Back to the Future: The Game! O jogo que traz ainda mais do mundo da série de filmes De Volta Para o Futuro. É uma experiência repleta de contéudo que vai desde diversos puzzles e aventuras ao melhor estilo point-and-click. Com a mesma genialidade do filme e muitos extras e adicionais, Back to the Future: The Game é um título que certamente será inesquecível para os fãs.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 17,
@@ -184,7 +200,8 @@
 		"imagem": "gta-v.jpg",
 		"imagens": ["gta-v.jpg", "gta-vimg2.jpg", "gta-vimg3.jpg"],
 		"estrelas": 5,
-		"descricao": "Em Grand Theft Auto V, a Rockstar faz a volta a Los Santos em um de seus projetos mais grandiosos graças a uma área de jogo maior que a de Grand theft Auto IV, Red Dead Redemption e Grand Theft Auto: San Andreas juntos e uma campanha com três protagonistas simultâneos. Na pele de Michael (criminoso aposentado que acaba retornando à vida de crimes), Trevor (antigo companheiro de bandidagem de Michael e psicopata) e Franklin (faz-tudo iniciante no mundo do crime), os jogadores encontram em Grand Theft Auto V uma trama digna da Rockstar centrada em diferentes abordagens criminosas, como assaltos a banco. O game também inova por permitir que cada personagem siga com a sua vida quando o jogador está no controle de seus companheiros. Desse modo, a companhia consegue um nível de imersão totalmente novo ao gênero."
+		"descricao": "Em Grand Theft Auto V, a Rockstar faz a volta a Los Santos em um de seus projetos mais grandiosos graças a uma área de jogo maior que a de Grand theft Auto IV, Red Dead Redemption e Grand Theft Auto: San Andreas juntos e uma campanha com três protagonistas simultâneos. Na pele de Michael (criminoso aposentado que acaba retornando à vida de crimes), Trevor (antigo companheiro de bandidagem de Michael e psicopata) e Franklin (faz-tudo iniciante no mundo do crime), os jogadores encontram em Grand Theft Auto V uma trama digna da Rockstar centrada em diferentes abordagens criminosas, como assaltos a banco. O game também inova por permitir que cada personagem siga com a sua vida quando o jogador está no controle de seus companheiros. Desse modo, a companhia consegue um nível de imersão totalmente novo ao gênero.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 18,
@@ -195,7 +212,8 @@
 		"imagem": "fifa-15.jpg",
 		"imagens": ["fifa-15.jpg", "fifa-15img2.jpg", "fifa-15img3.jpg"],
 		"estrelas": 4,
-		"descricao": "FIFA 15 traz aos jogos de futebol características inovadoras. Em FIFA 15 há um detalhamento incrível para que os fãs possam vivenciar toda a emoção do esporte como nunca. Um novo sistema de inteligência e expressão fará com que jogadores sintam e sejam influenciados por emoções dentro do campo. O jogo traz também um sistema de dribles e movimentação aperfeiçoados, mais detalhes no jogadores, assim como maior desempenho e qualidade gráfica."
+		"descricao": "FIFA 15 traz aos jogos de futebol características inovadoras. Em FIFA 15 há um detalhamento incrível para que os fãs possam vivenciar toda a emoção do esporte como nunca. Um novo sistema de inteligência e expressão fará com que jogadores sintam e sejam influenciados por emoções dentro do campo. O jogo traz também um sistema de dribles e movimentação aperfeiçoados, mais detalhes no jogadores, assim como maior desempenho e qualidade gráfica.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 19,
@@ -206,7 +224,8 @@
 		"imagem": "the-witcher-3.jpg",
 		"imagens": ["the-witcher-3.jpg", "the-witcher-3img2.jpg", "the-witcher-3img3.jpg"],
 		"estrelas": 4,
-		"descricao": "Seja um Witcher, um dos ultimos caçadores de monstro para se contratar. Vá atraz da criança da profecia, uma arma viva capaz de uma distruição sem precedentes. Viaje através de reinos em pé de guerra e de fim a criaturas lendárias. Explore cidades ricamente detalhadas e imersas na corrupção e navegue até ilhas desconhecidas. Num mundo mergulhado no caos, a suas ações formam o destino."
+		"descricao": "Seja um Witcher, um dos ultimos caçadores de monstro para se contratar. Vá atraz da criança da profecia, uma arma viva capaz de uma distruição sem precedentes. Viaje através de reinos em pé de guerra e de fim a criaturas lendárias. Explore cidades ricamente detalhadas e imersas na corrupção e navegue até ilhas desconhecidas. Num mundo mergulhado no caos, a suas ações formam o destino.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 20,
@@ -217,7 +236,8 @@
 		"imagem": "lords-of-the-fallen.jpg",
 		"imagens": ["lords-of-the-fallen.jpg", "lords-of-the-fallenimg2.jpg", "lords-of-the-fallenimg3.jpg"],
 		"estrelas": 4,
-		"descricao": "Lords of the Fallen é um jogo hardcore que oferece um sistema de combate intenso, além de diversas árvores de classes e habilidades que enriquecem a jogabilidade. A história se passa em um vasto mundo de fantasia aonde os Deuses falharam com a humanidade. É neste cenario onde os jogadores irão entrar na pele do humano Harkyn, que sai em uma jornada para combater uma força sobrenatural que parece ser invencível. Viaje através deste mundo incrivel que está dividido entre aqueles que ainda seguem o Deus Caído e aqueles que resistem. Em sua jornada você deverá tomar decisões que podem modificar a história e alterar para sempre o destino do mundo."
+		"descricao": "Lords of the Fallen é um jogo hardcore que oferece um sistema de combate intenso, além de diversas árvores de classes e habilidades que enriquecem a jogabilidade. A história se passa em um vasto mundo de fantasia aonde os Deuses falharam com a humanidade. É neste cenario onde os jogadores irão entrar na pele do humano Harkyn, que sai em uma jornada para combater uma força sobrenatural que parece ser invencível. Viaje através deste mundo incrivel que está dividido entre aqueles que ainda seguem o Deus Caído e aqueles que resistem. Em sua jornada você deverá tomar decisões que podem modificar a história e alterar para sempre o destino do mundo.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 21,
@@ -228,7 +248,8 @@
 		"imagem": "sniper-elite-v3.jpg",
 		"imagens": ["sniper-elite-v3.jpg", "sniper-elite-v3img2.jpg", "sniper-elite-v3img3.jpg"],
 		"estrelas": 3,
-		"descricao": "Usando como ambientação os conflitos que decorreram no norte da África no período da Segunda Guerra Mundial, Sniper Elite 3 coloca você novamente no papel de um dos atirados de elite do exército aliado. Apostando na precisão de seu rifle de longa distância, cabe ao protagonista acabar com os planos de um comandante tão cruel e ardiloso que até mesmo o exército nazista questiona seus métodos e ideais."
+		"descricao": "Usando como ambientação os conflitos que decorreram no norte da África no período da Segunda Guerra Mundial, Sniper Elite 3 coloca você novamente no papel de um dos atirados de elite do exército aliado. Apostando na precisão de seu rifle de longa distância, cabe ao protagonista acabar com os planos de um comandante tão cruel e ardiloso que até mesmo o exército nazista questiona seus métodos e ideais.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 22,
@@ -239,7 +260,8 @@
 		"imagem": "little-big-planet-3.jpg",
 		"imagens": ["little-big-planet-3.jpg", "little-big-planet-3img2.jpg", "little-big-planet-3img3.jpg"],
 		"estrelas": 3,
-		"descricao": "LittleBigPlanet 3 traz de volta o mundo dos sackboys! O título conta com muitas novidades de jogabilidade, fazendo deste mundo criativo ainda mais divertido e encantador. Agora você pode escolher entre 4 tipos diferentes de sackboy, cada um com suas habilidades e, o que não podia faltar, customizações praticamente infinitas!"
+		"descricao": "LittleBigPlanet 3 traz de volta o mundo dos sackboys! O título conta com muitas novidades de jogabilidade, fazendo deste mundo criativo ainda mais divertido e encantador. Agora você pode escolher entre 4 tipos diferentes de sackboy, cada um com suas habilidades e, o que não podia faltar, customizações praticamente infinitas!",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 23,
@@ -250,7 +272,8 @@
 		"imagem": "uncharted-4.jpg",
 		"imagens": ["uncharted-4.jpg", "uncharted-4img2.jpg", "uncharted-4img3.jpg"],
 		"estrelas": 4,
-		"descricao": "Em Uncharted 4 A Thiefs End, vários anos após sua última aventura, o agora aposentado caçador de tesouros, Nathan Drake, é forçado a voltar para o mundo dos ladrões para uma aventura final. Drake embarca em uma jornada pelo mundo em busca de uma conspiração histórica por trás de um famoso tesouro pirata.Uncharted 4 A Thiefs End promete a maior aventura da premiada série da Naughty Dog e testará os limites físicos, a determinação e, finalmente, o que Nathan Drake está disposto a sacrificar para salvar quem ama."
+		"descricao": "Em Uncharted 4 A Thiefs End, vários anos após sua última aventura, o agora aposentado caçador de tesouros, Nathan Drake, é forçado a voltar para o mundo dos ladrões para uma aventura final. Drake embarca em uma jornada pelo mundo em busca de uma conspiração histórica por trás de um famoso tesouro pirata.Uncharted 4 A Thiefs End promete a maior aventura da premiada série da Naughty Dog e testará os limites físicos, a determinação e, finalmente, o que Nathan Drake está disposto a sacrificar para salvar quem ama.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 24,
@@ -261,7 +284,8 @@
 		"imagem": "far-cry-4.jpg",
 		"imagens": ["far-cry-4.jpg", "far-cry-4img2.jpg", "far-cry-4img3.jpg"],
 		"estrelas": 4,
-		"descricao": "Far Cry 4 desta vez leva você ao Himalaia, mais exatamente a uma região selvagem e perigosa chamada Kyrat. O lugar é reinado por um homem que se auto-proclamou rei. Far Cry 4 traz um cenário gigantesco, liberdade para escrever sua história além de um bom arsenal de armas, veículos, opções e ainda inimigos variados além dos animais tão conhecidos e, alguns, mortais. Prepare-se para explorar esse mundo exótico com cenários estonteantes."
+		"descricao": "Far Cry 4 desta vez leva você ao Himalaia, mais exatamente a uma região selvagem e perigosa chamada Kyrat. O lugar é reinado por um homem que se auto-proclamou rei. Far Cry 4 traz um cenário gigantesco, liberdade para escrever sua história além de um bom arsenal de armas, veículos, opções e ainda inimigos variados além dos animais tão conhecidos e, alguns, mortais. Prepare-se para explorar esse mundo exótico com cenários estonteantes.",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 25,
@@ -272,7 +296,8 @@
 		"imagem": "pes2016.jpg",
 		"imagens": ["pes2016.jpg", "pes2016img2.jpg", "pes2016img3.jpg"],
 		"estrelas": 4,
-		"descricao": "Desde a sua origem no Playstation One, a série PES pulou de formato em formato, adicionando ainda mais realismo enquanto evoluia. Essa herança foi celebrada em PES 2016 com diversas adições emocionantes e fantásticas que dão continuidade ao visto em PES 2015. PES 2016 tem como objetivo retomar o título de melhor jogo de esporte de todos os tempos. A série pretende voltar a suas origens trazendo o que há de melhor em qualidade gráfica através do Motor Gráfico Fox, assim como diversos avanços em todas a áreas do jogo, seja do gameplay até a Master League. PES 2016 traz um real e grandioso avanço a série!"
+		"descricao": "Desde a sua origem no Playstation One, a série PES pulou de formato em formato, adicionando ainda mais realismo enquanto evoluia. Essa herança foi celebrada em PES 2016 com diversas adições emocionantes e fantásticas que dão continuidade ao visto em PES 2015. PES 2016 tem como objetivo retomar o título de melhor jogo de esporte de todos os tempos. A série pretende voltar a suas origens trazendo o que há de melhor em qualidade gráfica através do Motor Gráfico Fox, assim como diversos avanços em todas a áreas do jogo, seja do gameplay até a Master League. PES 2016 traz um real e grandioso avanço a série!",
+		"plataforma": "ps4"
 	},
 	{
 		"id": 26,
@@ -283,6 +308,7 @@
 		"imagem": "monopoly.jpg",
 		"imagens": ["monopoly.jpg", "monopolyimg2.jpg", "monopolyimg3.jpg"],
 		"estrelas": 3,
-		"descricao": "Embarque numa jornada divertida pelo mundo de 3 jogos de Monopoly, o famoso jogo de tabuleiro agora no seu videogame! MONOPOLY PLUS: Jogue o Monopoly que você conhece e ama em um lindo mundo 3D. Jogue online ou em pessoa com até 6 jogadores. MY MONOPOLY: Personalize o clássico jogo de tabuleiro Monopoly. Nomeie as propriedades, adicione ícones bobos ou figuras próprias. MONOPOLY DEAL: A Diversão de MONOPOLY empacotada em um rápido jogo de roubo de cartas! Jogue online ou em pessoa para até 5 jogadores."
-	},
+		"descricao": "Embarque numa jornada divertida pelo mundo de 3 jogos de Monopoly, o famoso jogo de tabuleiro agora no seu videogame! MONOPOLY PLUS: Jogue o Monopoly que você conhece e ama em um lindo mundo 3D. Jogue online ou em pessoa com até 6 jogadores. MY MONOPOLY: Personalize o clássico jogo de tabuleiro Monopoly. Nomeie as propriedades, adicione ícones bobos ou figuras próprias. MONOPOLY DEAL: A Diversão de MONOPOLY empacotada em um rápido jogo de roubo de cartas! Jogue online ou em pessoa para até 5 jogadores.",
+		"plataforma": "ps4"
+	}
 ]

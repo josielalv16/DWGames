@@ -217,8 +217,39 @@ img {
 	color: #a62c48 !important;
 }
 
+.azul, .azul > a{
+	color: #004a87 !important;
+}
+
+.amarelo, .amarelo > a{
+	color: #faa61e !important;
+}
+
+.roxo, .roxo > a{
+	color: #673ab7 !important;
+}
+.azul-claro, .azul-claro > a{
+	color: #44A3BD !important;
+}
+
 .breadcumb.vinho a {
 	color: #a62c48 !important;
+}
+
+.breadcumb.azul a {
+	color: #004a87 !important;
+}
+
+.breadcumb.azul-claro a {
+	color: #44A3BD !important;
+}
+
+.breadcumb.roxo a {
+	color: #673ab7 !important;
+}
+
+.breadcumb.amarelo a{
+	color: #faa61e !important;
 }
 
 .breadcumb a, .breadcumb a:hover, .breadcumb a:visited {
@@ -247,8 +278,6 @@ img {
 .breadcumb a:hover {
 	text-decoration: underline !important;
 }
-
-
 
 @media all and (max-width: 1065px){
 	.painel{
@@ -343,6 +372,33 @@ img {
 
 .base-card-conteudo.com-borda.vinho, .base-card-conteudo.vinho a > .bloco-conteudo.hover {
 	background-color: rgba(166, 44, 72, 0.8);
+}
+
+.base-card-conteudo.com-borda.amarelo, .base-card-conteudo.amarelo a > div{
+	border-color: #faa61e;
+	color: #faa61e;
+}
+
+.base-card-conteudo.com-borda.amarelo, .base-card-conteudo.amarelo a > .bloco-conteudo.hover {
+	background-color: rgba(250, 166, 30, 0.8);
+}
+
+.base-card-conteudo.com-borda.roxo, .base-card-conteudo.roxo a > div{
+	border-color: #673ab7;
+	color: #673ab7;
+}
+
+.base-card-conteudo.com-borda.roxo, .base-card-conteudo.roxo a > .bloco-conteudo.hover {
+	background-color: rgba(103, 58, 183, 0.8);
+}
+
+.base-card-conteudo.com-borda.azul-claro, .base-card-conteudo.azul-claro a > div{
+	border-color: #44A3BD;
+	color: #44A3BD;
+}
+
+.base-card-conteudo.com-borda.azul-claro, .base-card-conteudo.azul-claro a > .bloco-conteudo.hover {
+	background-color: rgba(68, 163, 189, 0.8);
 }
 
 .base-card-conteudo .bloco-conteudo {

@@ -1,149 +1,158 @@
 <style>
-.cabecalho{
-	background-image: url(imagens/background-cabecalho.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-.cabecalho a{
-	text-decoration: none;
-}
-
-.cabecalho .busca{
-	display: inline-block;
-	width: 435px;
-}
-
-.cabecalho .busca > div{
-	display: table-cell;
-}
-
-.cabecalho .busca input{
-	width: 100%;
-	background-color: #e6e6e6;
-	border: 2px solid #999999;
-	border-radius: 8px;
-}
-
-.menu{
-	height: 47px;
-	width: 100%;
-	clear: left;
-	margin-top: 0px;
-	position: relative;
-	z-index: 100;
-}
-
-.menu-borda-inferior{
-	background-color: #e6e6e6;
-	position: relative;
-	height: 10px;
-	margin-top: -11px;
-	display: block;
-}
-
-.menu .menu-item{
-	float: left;
-	font-size: 15px;
-	top: 0px;
-	position: relative;
-	color: #777777;
-	padding: 8px 20px 8px 20px;
-	margin: 0px 19px 0 19px;
-	cursor: pointer;
-	white-space: nowrap;
-	z-index: 1;
-
-	-webkit-transition: all 100ms linear;
-	-moz-transition: all 100ms linear;
-	-ms-transition: all 100ms linear;
-	-o-transition: all 100ms linear;
-	transition: all 100ms linear;
-}
-
-.menu .menu-item > a{
-	color: #777777;
-	text-decoration: none;
-}
-
-/*Inicio*/
-.menu .menu-item:hover{
-	color: #004a87;
-	border-bottom: 10px solid #004a87;
-}
-/*PC*/
-.menu .menu-item + .menu-item:hover{
-	color: #197401;
-	border-bottom: 10px solid #197401;
-}
-/*XBox 360*/
-.menu .menu-item + .menu-item + .menu-item:hover{
-	color: #faa61e;
-	border-bottom: 10px solid #faa61e;
-}
-/*XBox One*/
-.menu .menu-item + .menu-item + .menu-item + .menu-item:hover{
-	color: #673ab7;
-	border-bottom: 10px solid #673ab7;
-}
-/*PlayStation 3*/
-.menu .menu-item + .menu-item + .menu-item + .menu-item + .menu-item:hover{
-	color: #A62C48;
-	border-bottom: 10px solid #A62C48;
-}
-/*PlayStation 4*/
-.menu .menu-item + .menu-item + .menu-item + .menu-item + .menu-item + .menu-item:hover{
-	color: #44A3BD;
-	border-bottom: 10px solid #44A3BD;
-}
-/*Jogos*/
-.menu .menu-item + .menu-item + .menu-item + .menu-item + .menu-item + .menu-item + .menu-item:hover{
-	color: #ff5722;
-	border-bottom: 10px solid #ff5722;
-}
-.menu .col2{
-	display: flex;
-	justify-content: center;
-}
-.divBusca{
-	margin-top: 180px;
-}
-
-@media all and (max-width: 990px) {
-	.cabecalho .busca{
-		width: 100%;
+	.cabecalho {
+		background-image: url(imagens/background-cabecalho.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	}
-	.cabecalho .col6{
+
+	.cabecalho a {
+		text-decoration: none;
+	}
+
+	.cabecalho .busca {
 		display: inline-block;
-		text-align: center !important;
-		margin-left: 0px !important;
+		width: 435px;
 	}
-	.menu{
-		height: auto;
-		margin-top: 0;
-	}
-	.menu .menu-item{
-		display: block;
-		text-align: center;
-		float: none;
-		border-bottom: 10px solid transparent !important;
-	}
-	.menu-borda-inferior{
-		margin-top: 0;
-	}
-	.menu .col2{
-		display: block;
-	}
-	.divBusca{
-		margin-top: 30px;
-	}
-}
-@media all and (max-width: 480px) {
-	.coluna{
-		width: 100% !important;
-	}
-}
 
+	.cabecalho .busca>div {
+		display: table-cell;
+	}
+
+	.cabecalho .busca input {
+		width: 100%;
+		background-color: #e6e6e6;
+		border: 2px solid #999999;
+		border-radius: 8px;
+	}
+
+	.menu {
+		height: 47px;
+		width: 100%;
+		clear: left;
+		margin-top: 0px;
+		position: relative;
+		z-index: 100;
+	}
+
+	.menu-borda-inferior {
+		background-color: #e6e6e6;
+		position: relative;
+		height: 10px;
+		margin-top: -11px;
+		display: block;
+	}
+
+	.menu .menu-item {
+		float: left;
+		font-size: 15px;
+		top: 0px;
+		position: relative;
+		color: #777777;
+		padding: 8px 27px 8px 27px;
+		margin: 0px 19px 0 19px;
+		cursor: pointer;
+		white-space: nowrap;
+		z-index: 1;
+
+		-webkit-transition: all 100ms linear;
+		-moz-transition: all 100ms linear;
+		-ms-transition: all 100ms linear;
+		-o-transition: all 100ms linear;
+		transition: all 100ms linear;
+	}
+
+	.menu .menu-item>a {
+		color: #777777;
+		text-decoration: none;
+	}
+
+	/*Inicio*/
+
+	.menu .menu-item:hover {
+		color: #004a87;
+		border-bottom: 10px solid #004a87;
+	}
+
+	/*XBox 360*/
+
+	.menu .menu-item+.menu-item:hover {
+		color: #faa61e;
+		border-bottom: 10px solid #faa61e;
+	}
+
+	/*XBox One*/
+
+	.menu .menu-item+.menu-item+.menu-item:hover {
+		color: #673ab7;
+		border-bottom: 10px solid #673ab7;
+	}
+
+	/*PlayStation 3*/
+
+	.menu .menu-item+.menu-item+.menu-item+.menu-item:hover {
+		color: #A62C48;
+		border-bottom: 10px solid #A62C48;
+	}
+
+	/*PlayStation 4*/
+
+	.menu .menu-item+.menu-item+.menu-item+.menu-item+.menu-item:hover {
+		color: #44A3BD;
+		border-bottom: 10px solid #44A3BD;
+	}
+
+	/*Contato*/
+
+	.menu .menu-item+.menu-item+.menu-item+.menu-item+.menu-item+.menu-item:hover {
+		color: #FF5722;
+		border-bottom: 10px solid #FF5722;
+	}
+
+	.menu .col2 {
+		display: flex;
+		justify-content: center;
+	}
+
+	.divBusca {
+		margin-top: 180px;
+	}
+
+	@media all and (max-width: 990px) {
+		.cabecalho .busca {
+			width: 100%;
+		}
+		.cabecalho .col6 {
+			display: inline-block;
+			text-align: center !important;
+			margin-left: 0px !important;
+		}
+		.menu {
+			height: auto;
+			margin-top: 0;
+		}
+		.menu .menu-item {
+			display: block;
+			text-align: center;
+			float: none;
+			border-bottom: 10px solid transparent !important;
+		}
+		.menu-borda-inferior {
+			margin-top: 0;
+		}
+		.menu .col2 {
+			display: block;
+		}
+		.divBusca {
+			margin-top: 30px;
+		}
+	}
+
+	@media all and (max-width: 480px) {
+		.coluna {
+			width: 100% !important;
+		}
+	}
 </style>
 <div class="cabecalho" style="height: 260px;" id="cabecalho">
 	<div class="grade">
@@ -157,11 +166,12 @@
 				<div class="divBusca">
 					<div class="busca">
 						<div style="width: 100%;">
-							<input type="text" placeholder="Busque por todo o site..."/>
+							<input type="text" id="campoBuscar" placeholder="Busque por todo o site..." />
 						</div>
 						<div style="text-align: right; width: 59px;">
-							<a href="javascript:" id="botaoBuscarCabecalho">
-								<img style="display: inline-block; width: 45px; height: 45px; position: relative;left: 5px; top: -9px; background-color: rgba(255,255,255, 0.6); border-radius: 12px;" src="imagens/buscar.png" alt="Buscar"/>
+							<a href="javascript:" onclick="buscar()">
+								<img style="display: inline-block; width: 45px; height: 45px; position: relative;left: 5px; top: -9px; background-color: rgba(255,255,255, 0.6); border-radius: 12px;"
+								 src="imagens/buscar.png" alt="Buscar" />
 							</a>
 						</div>
 					</div>
@@ -175,9 +185,6 @@
 		<a href="inicio.html" id="inicio" class="menu-item">
 			Início
 		</a>
-		<a href="pc.html" id="pc" class="menu-item">
-			PC
-		</a>
 		<a href="xbox360.html" id="xbox360" class="menu-item">
 			XBox 360
 		</a>
@@ -190,8 +197,8 @@
 		<a href="playstation4.html" id="playstation4" class="menu-item">
 			PlayStation 4
 		</a>
-		<a href="jogos.html" id="jogos" class="menu-item">
-			Jogos
+		<a href="contato.html" id="contato" class="menu-item">
+			Contato
 		</a>
 	</div>
 </div>

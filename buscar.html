@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Buscar</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="Vitrine de Jogos!">
+	<meta name="keywords" content="HTML, Jogos, XBox 360, XBox One, PlayStation 3, PlayStation 4">
+	<meta name="author" content="Josiel Alves de Matos">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+	<header id="cabecalho"></header>
+	<div class="grade">
+		<div class="breadcumb azul">
+			<div>
+				<a href="inicio.html">Inicio</a>
+			</div>
+			<div>
+				<span>Buscar</span>
+			</div>
+		</div>
+	</div>
+	<div class="buscar">
+		<div class="painel">
+			<div class="grade">
+				<div class="grade-linha">
+					<div class="col12">
+						<div id="base-card"></div>
+					</div>
+					<a href="#cabecalho" class="azul" style="float: right;" ><i class="material-icons">arrow_upward</i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer id="rodape"></footer>
+</body>
+<script>
+	var url_atual = window.location.href;
+	var buscarPor = url_atual.split("?")[1];
+	console.log("Buscar por: " + buscarPor);
+	var baseCard = document.getElementById("base-card");
+	var html = '';
+	var aux = 0;
+
+	$.get('./json/ps3.json', function (res) {
+		carregarBuscaJogos(res);
+	});
+
+	$.get('./json/ps4.json', function (res) {
+		carregarBuscaJogos(res);
+	});
+
+	$.get('./json/xbox360.json', function (res) {
+		carregarBuscaJogos(res);
+	});
+
+	$.get('./json/xboxone.json', function (res) {
+		carregarBuscaJogos(res);
+	});
+
+	function carregarBuscaJogos(todosJogos) {
+		var resultado = false;
+		for (var i = 0; i < todosJogos.length; i++) {
+			if (todosJogos[i].nome.toUpperCase().includes(buscarPor.toUpperCase())) {
+				resultado = true;
+				if (aux % 4 == 0) {
+					console.log("Entrou 1: " + aux);
+					html += '<div class="base-card">';
+				}
+				aux++;
+				var estrela1 = todosJogos[i].estrelas >= 1 ? "estrela-ativa" : "";
+				var estrela2 = todosJogos[i].estrelas >= 2 ? "estrela-ativa" : "";
+				var estrela3 = todosJogos[i].estrelas >= 3 ? "estrela-ativa" : "";
+				var estrela4 = todosJogos[i].estrelas >= 4 ? "estrela-ativa" : "";
+				var estrela5 = todosJogos[i].estrelas >= 5 ? "estrela-ativa" : "";
+				var corBorda = todosJogos[i].plataforma == 'ps3' ? 'vinho' : todosJogos[i].plataforma == 'ps4' ? 'azul-claro' : todosJogos[i].plataforma == 'xb360' ? 'amarelo' : todosJogos[i].plataforma == 'xbone' ? 'roxo' : '';
+
+				html += '<div class="base-card-conteudo com-borda ' + corBorda + '"><a href="jogo.html?' + todosJogos[i].id + '&' + todosJogos[i].plataforma + '"><div class="bloco-conteudo"><div class="background"><img src="imagens/' + todosJogos[i].plataforma + '/' + todosJogos[i].imagem + '"></div><div class="conteudo"><div class="categoria">' + todosJogos[i].genero + '</div><div class="titulo">' + todosJogos[i].nome + '</div><div><div class="valor">R$' + todosJogos[i].preco + '</div><div class="avaliacao"><span class="base-estrela estrela ' + estrela1 + ' "></span><span class="base-estrela estrela ' + estrela2 + '"></span><span class="base-estrela estrela ' + estrela3 + '"></span><span class="base-estrela estrela ' + estrela4 + '"></span><span class="base-estrela estrela ' + estrela5 + '"></span></div></div></div></div><div class="bloco-conteudo hover"><div class="conteudo"><div class="empresa">' + todosJogos[i].empresa + '</div></div></div></a></div>';
+
+				if (aux % 4 == 0) {
+					console.log("Entrou 2: " + aux);
+					html += '</div>';
+				}
+			}
+		}
+		if (resultado) {
+			baseCard.innerHTML = html;
+		} else {
+			baseCard.innerHTML = "<h1> :'( <br><br>Desculpe, nenhum resultado foi encontrado, tente novamente.<br><br></h1>";
+		}
+	}
+</script>
+
+</html>
