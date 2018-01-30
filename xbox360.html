@@ -1,74 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<title>XBox 360</title>
-		<meta charset="utf-8"/>
-		<meta name="description" content="Vitrine de Jogos!">
-		<meta name="keywords" content="HTML, Jogos, XBox 360, XBox One, PlayStation 3, PlayStation 4">
-		<meta name="author" content="Josiel Alves de Matos">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<script type="text/javascript" src="script.js"></script>
-		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-	</head>
-	<style>
-		
-	</style>
-	<body>
-		<header id="cabecalho"></header>
-		<div class="grade">
-			<div class="breadcumb amarelo">
-				<div>
-					<a href="inicio.html">Inicio</a>
-				</div>
-				<div>
-					<span>XBox 360</span>
-				</div>
+
+<head>
+	<title>XBox 360</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="Vitrine de Jogos!">
+	<meta name="keywords" content="HTML, Jogos, XBox 360, XBox One, PlayStation 3, PlayStation 4">
+	<meta name="author" content="Josiel Alves de Matos">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+	<header id="cabecalho"></header>
+	<div class="grade">
+		<div class="breadcumb amarelo">
+			<div>
+				<a href="inicio.html">Inicio</a>
+			</div>
+			<div>
+				<span>XBox 360</span>
 			</div>
 		</div>
+	</div>
+	<div class="grade">
+		<div class="grade-linha">
+			<div class="col12">
+				<h1 class="amarelo" style="margin-top: 0px">XBox 360</h1>
+			</div>
+		</div>
+	</div>
+	<div class="painel">
 		<div class="grade">
 			<div class="grade-linha">
-				<div class="col12">
-					<h1 class="amarelo" style="margin-top: 0px">XBox 360</h1>
+				<div class="col3">
+					<div>
+						FILTRE SUA BUSCA ABAIXO
+					</div>
+					<div class="genero amarelo">
+						GÊNEROS
+					</div>
+					<div class="base-filtro-genero">
+						<ol>
+							<li>
+								<a href="javascript:" onclick="filtroGenero('Todos', 'xbox360')" class="filtro-genero">Todos</a>
+							</li>
+							<li>
+								<a href="javascript:" onclick="filtroGenero('Ação', 'xbox360')" class="filtro-genero">Ação</a>
+							</li>
+							<li>
+								<a href="javascript:" onclick="filtroGenero('Aventura', 'xbox360')" class="filtro-genero">Aventura</a>
+							</li>
+							<li>
+								<a href="javascript:" onclick="filtroGenero('Esporte', 'xbox360')" class="filtro-genero">Esporte</a>
+							</li>
+							<li>
+								<a href="javascript:" onclick="filtroGenero('Estratégia', 'xbox360')" class="filtro-genero">Estratégia</a>
+							</li>
+							<li>
+								<a href="javascript:" onclick="filtroGenero('Luta', 'xbox360')" class="filtro-genero">Luta</a>
+							</li>
+							<li>
+								<a href="javascript:" onclick="filtroGenero('RPG', 'xbox360')" class="filtro-genero">RPG</a>
+							</li>
+							<li>
+								<a href="javascript:" onclick="filtroGenero('Tiro', 'xbox360')" class="filtro-genero">Tiro</a>
+							</li>
+						</ol>
+					</div>
 				</div>
+				<div class="col9">
+					<h3 id="base-categoria" class="amarelo">Todos</h3>
+					<div id="base-card">
+					</div>
+				</div>
+				<a href="#cabecalho" style="color: #fAA61E; float: right;">
+					<i class="material-icons">arrow_upward</i>
+				</a>
 			</div>
 		</div>
-		<div class="painel">
-			<div class="grade">
-				<div class="grade-linha">
-					<div class="col3">
-						<div>
-							FILTRE SUA BUSCA ABAIXO
-						</div>
-						<div class="genero amarelo">
-							GÊNEROS
-						</div>
-						<div class="base-filtro-genero">
-							<ol>
-								<li><a href="javascript:" onclick="filtroGenero('Todos', 'xbox360')" class="filtro-genero">Todos</a></li>
-								<li><a href="javascript:" onclick="filtroGenero('Ação', 'xbox360')" class="filtro-genero">Ação</a></li>
-								<li><a href="javascript:" onclick="filtroGenero('Aventura', 'xbox360')" class="filtro-genero">Aventura</a></li>
-								<li><a href="javascript:" onclick="filtroGenero('Esporte', 'xbox360')" class="filtro-genero">Esporte</a></li>
-								<li><a href="javascript:" onclick="filtroGenero('Estratégia', 'xbox360')" class="filtro-genero">Estratégia</a></li>
-								<li><a href="javascript:" onclick="filtroGenero('Luta', 'xbox360')" class="filtro-genero">Luta</a></li>
-								<li><a href="javascript:" onclick="filtroGenero('RPG', 'xbox360')" class="filtro-genero">RPG</a></li>
-								<li><a href="javascript:" onclick="filtroGenero('Tiro', 'xbox360')" class="filtro-genero">Tiro</a></li>
-							</ol>
-						</div>
-					</div>
-					<div class="col9">
-						<h3 id="base-categoria" class="amarelo">Todos</h3>
-						<div id="base-card">
-						</div>
-					</div>
-					<a href="#cabecalho" style="color: #fAA61E; float: right;" ><i class="material-icons">arrow_upward</i></a>
-				</div>
-			</div>
-		</div>
+	</div>
 
-		<footer id="rodape"></footer>
-	</body>
+	<footer id="rodape"></footer>
+</body>
+
 </html>
