@@ -53,7 +53,7 @@ function styloMenu() {
         if (url_atual.includes("xbox360")) {
             $.get('./json/xbox360.json', function (res) {
                 jogosXbox360 = res;
-                carregarTodosJogosXbox360();
+                carregarTodosOsJogos(res);
             });
         }
     } else if (url_atual.includes("xboxone") || url_atual.includes("xbone")) {
@@ -63,7 +63,7 @@ function styloMenu() {
         if (url_atual.includes("xboxone")) {
             $.get('./json/xboxone.json', function (res) {
                 jogosXboxOne = res;
-                carregarTodosJogosXboxOne();
+                carregarTodosOsJogos(res);
             });
         }
     } else if (url_atual.includes("playstation3") || url_atual.includes("ps3")) {
@@ -73,7 +73,7 @@ function styloMenu() {
         if (url_atual.includes("playstation3")) {
             $.get('./json/ps3.json', function (res) {
                 jogosPlayStation3 = res;
-                carregarTodosJogosPs3();
+                carregarTodosOsJogos(res);
             });
         }
     } else if (url_atual.includes("playstation4") || url_atual.includes("ps4")) {
@@ -83,7 +83,7 @@ function styloMenu() {
         if (url_atual.includes("playstation4")) {
             $.get('./json/ps4.json', function (res) {
                 jogosPlayStation4 = res;
-                carregarTodosJogosPs4();
+                carregarTodosOsJogos(res);
             })
         }
     } else if (url_atual.includes("contato")) {
@@ -105,81 +105,48 @@ function carregarCardJogo(jogo) {
     html += '<div class="base-card-conteudo com-borda ' + corBorda + '"><a href="jogo.html?' + jogo.id + '&' + jogo.plataforma + '"><div class="bloco-conteudo"><div class="background"><img src="imagens/' + jogo.plataforma + '/' + jogo.imagem + '"></div><div class="conteudo"><div class="categoria">' + jogo.genero + '</div><div class="titulo">' + jogo.nome + '</div><div><div class="valor">R$' + jogo.preco + '</div><div class="avaliacao"><span class="base-estrela estrela ' + estrela1 + ' "></span><span class="base-estrela estrela ' + estrela2 + '"></span><span class="base-estrela estrela ' + estrela3 + '"></span><span class="base-estrela estrela ' + estrela4 + '"></span><span class="base-estrela estrela ' + estrela5 + '"></span></div></div></div></div><div class="bloco-conteudo hover"><div class="conteudo"><div class="empresa">' + jogo.empresa + '</div></div></div></a></div>';
 }
 
-function carregarTodosJogosPs3() {
+function carregarTodosOsJogos(jogos) {
     var baseCard = document.getElementById("base-card");
     html = '';
     var aux = 0;
-    for (var i = 0; i < jogosPlayStation3.length; i++) {
+    for (var i = 0; i < jogos.length; i++) {
         if (aux % 3 == 0) {
             html += '<div class="base-card">';
         }
         aux++;
-        carregarCardJogo(jogosPlayStation3[i]);
+        carregarCardJogo(jogos[i]);
         if (aux % 3 == 0) {
             html += '</div>';
         }
     }
-
     baseCard.innerHTML = html;
 }
 
-function carregarTodosJogosPs4() {
-    var baseCard = document.getElementById("base-card");
-    html = '';
-    var aux = 0;
-    for (var i = 0; i < jogosPlayStation4.length; i++) {
-        if (aux % 3 == 0) {
-            html += '<div class="base-card">';
-        }
-        aux++;
-        carregarCardJogo(jogosPlayStation4[i]);
-        if (aux % 3 == 0) {
-            html += '</div>';
-        }
-    }
-
-    baseCard.innerHTML = html;
-}
-
-function filtroGeneroPs3(genero) {
+function filtroGenero(genero, plataforma) {
     var baseCard = document.getElementById("base-card");
     document.getElementById("base-categoria").innerText = genero;
     html = '';
     var aux = 0;
-    if (genero == "Todos") {
-        carregarTodosJogosPs3();
-    } else {
-        for (var i = 0; i < jogosPlayStation3.length; i++) {
-            if (jogosPlayStation3[i].genero.includes(genero)) {
-                if (aux % 3 == 0) {
-                    html += '<div class="base-card">';
-                }
-                aux++;
-                carregarCardJogo(jogosPlayStation3[i]);
-                if (aux % 3 == 0) {
-                    html += '</div>';
-                }
-            }
-        }
-        baseCard.innerHTML = html;
+    var jogosPlataforma;
+    if (plataforma == "xbox360") {
+        jogosPlataforma = jogosXbox360;
+    } else if (plataforma == "xboxone") {
+        jogosPlataforma = jogosXboxOne;
+    } else if (plataforma == "ps3") {
+        jogosPlataforma = jogosPlayStation3;
+    } else if (plataforma == "ps4") {
+        jogosPlataforma = jogosPlayStation4;
     }
-}
-
-function filtroGeneroPs4(genero) {
-    var baseCard = document.getElementById("base-card");
-    document.getElementById("base-categoria").innerText = genero;
-    html = '';
-    var aux = 0;
     if (genero == "Todos") {
-        carregarTodosJogosPs4();
+        carregarTodosOsJogos(jogosPlataforma);
     } else {
-        for (var i = 0; i < jogosPlayStation4.length; i++) {
-            if (jogosPlayStation4[i].genero.includes(genero)) {
+        for (var i = 0; i < jogosPlataforma.length; i++) {
+            if (jogosPlataforma[i].genero.includes(genero)) {
                 if (aux % 3 == 0) {
                     html += '<div class="base-card">';
                 }
                 aux++;
-                carregarCardJogo(jogosPlayStation4[i]);
+                carregarCardJogo(jogosPlataforma[i]);
                 if (aux % 3 == 0) {
                     html += '</div>';
                 }
