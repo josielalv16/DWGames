@@ -158,24 +158,29 @@ img {
 
 .cabecalho .busca input {
 	width: 100%;
-	background-color: #e6e6e6;
 	border: 2px solid #999999;
+	background-color: #F2F2F2;
 	border-radius: 8px;
+	font-size: 13px;
+	padding: 8px 14px;
+	height: 35px;
+	color: black;
 }
 
 .cabecalho+.menu {
-	height: 47px;
+	height: 46px;
 	width: 100%;
 	clear: left;
 	margin-top: 0px;
 	position: relative;
+	box-shadow: 0 8px 10px rgba(0, 0, 0, .14), 0 3px 14px rgba(0, 0, 0, .12), 0 4px 15px rgba(0, 0, 0, .20);
 	z-index: 100;
 }
 
 .cabecalho+.menu+.menu-borda-inferior {
 	background-color: #e6e6e6;
 	position: relative;
-	height: 10px;
+	height: 11px;
 	margin-top: -11px;
 	display: block;
 }
@@ -267,7 +272,7 @@ img {
 }
 
 .painelSlidesInicio {
-	margin-bottom: 15px;
+	margin: 15px auto;
 }
 
 .painelSlidesInicio .slideshow-painel {

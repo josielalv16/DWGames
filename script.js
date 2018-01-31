@@ -28,6 +28,8 @@ window.onload = function () {
             }
         });
     }, 100);
+
+    // carregarDestaqueXbox360();
 }
 
 function buscar() {
@@ -46,6 +48,17 @@ function styloMenu() {
         var inicio = document.getElementById("inicio");
         inicio.style.borderBottom = '10px solid #004A87';
         inicio.style.color = '#004A87';
+        if (url_atual.includes("inicio")) {
+            $.get('./json/xbox360.json', function (res) {
+                carregarDestaqueXbox360(res);
+            });
+            $.get('./json/ps3.json', function (res) {
+                carregarDestaquePs3(res);
+            });
+            $.get('./json/ps4.json', function (res) {
+                carregarDestaquePs4(res);
+            });
+        }
     } else if (url_atual.includes("xbox360") || url_atual.includes("xb360")) {
         var xbox360 = document.getElementById("xbox360");
         xbox360.style.borderBottom = '10px solid #FAA61E';
@@ -95,14 +108,14 @@ function styloMenu() {
 
 var html = '';
 function carregarCardJogo(jogo) {
-    var estrela1 = jogo.estrelas >= 1 ? "estrela-ativa" : "";
-    var estrela2 = jogo.estrelas >= 2 ? "estrela-ativa" : "";
-    var estrela3 = jogo.estrelas >= 3 ? "estrela-ativa" : "";
-    var estrela4 = jogo.estrelas >= 4 ? "estrela-ativa" : "";
-    var estrela5 = jogo.estrelas >= 5 ? "estrela-ativa" : "";
-    var corBorda = jogo.plataforma == 'ps3' ? 'vinho' : jogo.plataforma == 'ps4' ? 'azul-claro' : jogo.plataforma == 'xb360' ? 'amarelo' : jogo.plataforma == 'xbone' ? 'roxo' : '';
+    var cor = jogo.plataforma == 'ps3' ? 'vinho' : jogo.plataforma == 'ps4' ? 'azul-claro' : jogo.plataforma == 'xb360' ? 'amarelo' : jogo.plataforma == 'xbone' ? 'roxo' : '';
+    var estrela1 = jogo.estrelas >= 1 ? cor : "";
+    var estrela2 = jogo.estrelas >= 2 ? cor : "";
+    var estrela3 = jogo.estrelas >= 3 ? cor : "";
+    var estrela4 = jogo.estrelas >= 4 ? cor : "";
+    var estrela5 = jogo.estrelas >= 5 ? cor : "";
 
-    html += '<div class="base-card-conteudo com-borda ' + corBorda + '"><a href="jogo.html?' + jogo.id + '&' + jogo.plataforma + '"><div class="bloco-conteudo"><div class="background"><img src="imagens/' + jogo.plataforma + '/' + jogo.imagem + '"></div><div class="conteudo"><div class="categoria">' + jogo.genero + '</div><div class="titulo">' + jogo.nome + '</div><div><div class="valor">R$' + jogo.preco + '</div><div class="avaliacao"><span class="base-estrela estrela ' + estrela1 + ' "></span><span class="base-estrela estrela ' + estrela2 + '"></span><span class="base-estrela estrela ' + estrela3 + '"></span><span class="base-estrela estrela ' + estrela4 + '"></span><span class="base-estrela estrela ' + estrela5 + '"></span></div></div></div></div><div class="bloco-conteudo hover"><div class="conteudo"><div class="empresa">' + jogo.empresa + '</div></div></div></a></div>';
+    html += '<div class="base-card-conteudo com-borda ' + cor + '"><a href="jogo.html?' + jogo.id + '&' + jogo.plataforma + '"><div class="bloco-conteudo"><div class="background"><img src="imagens/' + jogo.plataforma + '/' + jogo.imagem + '"></div><div class="conteudo"><div class="categoria">' + jogo.genero + '</div><div class="titulo">' + jogo.nome + '</div><div><div class="valor">R$' + jogo.preco + '</div><div class="avaliacao"><span class="base-estrela estrela ' + estrela1 + ' "></span><span class="base-estrela estrela ' + estrela2 + '"></span><span class="base-estrela estrela ' + estrela3 + '"></span><span class="base-estrela estrela ' + estrela4 + '"></span><span class="base-estrela estrela ' + estrela5 + '"></span></div></div></div></div><div class="bloco-conteudo hover"><div class="conteudo"><div class="empresa">' + jogo.empresa + '</div></div></div></a></div>';
 }
 
 function carregarTodosOsJogos(jogos) {

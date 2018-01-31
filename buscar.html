@@ -47,10 +47,11 @@
 <script>
 	var url_atual = window.location.href;
 	var buscarPor = url_atual.split("?")[1];
-	console.log("Buscar por: " + buscarPor);
+	buscarPor = buscarPor.replace('%20', ' ');
 	var baseCard = document.getElementById("base-card");
 	var html = '';
 	var aux = 0;
+	var resultado = false;
 
 	$.get('./json/ps3.json', function (res) {
 		carregarBuscaJogos(res);
@@ -59,22 +60,19 @@
 	$.get('./json/ps4.json', function (res) {
 		carregarBuscaJogos(res);
 	});
-
 	$.get('./json/xbox360.json', function (res) {
 		carregarBuscaJogos(res);
 	});
-
 	$.get('./json/xboxone.json', function (res) {
 		carregarBuscaJogos(res);
 	});
 
+
 	function carregarBuscaJogos(todosJogos) {
-		var resultado = false;
 		for (var i = 0; i < todosJogos.length; i++) {
 			if (todosJogos[i].nome.toUpperCase().includes(buscarPor.toUpperCase())) {
 				resultado = true;
 				if (aux % 4 == 0) {
-					console.log("Entrou 1: " + aux);
 					html += '<div class="base-card">';
 				}
 				aux++;
@@ -88,7 +86,6 @@
 				html += '<div class="base-card-conteudo com-borda ' + corBorda + '"><a href="jogo.html?' + todosJogos[i].id + '&' + todosJogos[i].plataforma + '"><div class="bloco-conteudo"><div class="background"><img src="imagens/' + todosJogos[i].plataforma + '/' + todosJogos[i].imagem + '"></div><div class="conteudo"><div class="categoria">' + todosJogos[i].genero + '</div><div class="titulo">' + todosJogos[i].nome + '</div><div><div class="valor">R$' + todosJogos[i].preco + '</div><div class="avaliacao"><span class="base-estrela estrela ' + estrela1 + ' "></span><span class="base-estrela estrela ' + estrela2 + '"></span><span class="base-estrela estrela ' + estrela3 + '"></span><span class="base-estrela estrela ' + estrela4 + '"></span><span class="base-estrela estrela ' + estrela5 + '"></span></div></div></div></div><div class="bloco-conteudo hover"><div class="conteudo"><div class="empresa">' + todosJogos[i].empresa + '</div></div></div></a></div>';
 
 				if (aux % 4 == 0) {
-					console.log("Entrou 2: " + aux);
 					html += '</div>';
 				}
 			}

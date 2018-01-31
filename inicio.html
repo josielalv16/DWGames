@@ -12,6 +12,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
@@ -19,13 +20,19 @@
 	<div class="painelSlidesInicio">
 		<div class="slideshow-painel">
 			<div class="slides-inicio fade">
-				<img src="imagens/superMarioOdyssey.jpg" style="width:100%">
+				<a href="jogo.html?7&xb360">
+					<img src="imagens/destiny-banner.jpg" style="width:100%">
+				</a>
 			</div>
 			<div class="slides-inicio fade">
-				<img src="imagens/pes2018.jpg" style="width:100%">
+				<a href="jogo.html?6&ps3">
+					<img src="imagens/call-of-duty-black-ops-banner.jpg" style="width:100%">
+				</a>
 			</div>
 			<div class="slides-inicio fade">
-				<img src="imagens/assassinsCreedOrigins.png" style="width:100%">
+				<a href="jogo.html?12&ps4">
+					<img src="imagens/watch-dogs-banner.jpg" style="width:100%">
+				</a>
 			</div>
 
 			<a class="anterior" onclick="plusSlides(-1)">&#10094;</a>
@@ -42,38 +49,23 @@
 		<div class="grade">
 			<div class="grade-linha">
 				<div class="col12">
-					<h1>Categorias</h1>
+					<h1>Destaques</h1>
 				</div>
-				<div class="card">
-					<div class="base-card">
-						<div class="base-card-conteudo com-borda vinho">
-							<a href="jogo.html">
-								<div class="bloco-conteudo">
-									<div class="background" style="background-image: url('imagens/superMarioOdyssey.jpg');"></div>
-									<div class="conteudo">
-										<div class="categoria">Ação</div>
-										<div class="titulo">Super Mario Odyssey</div>
-										<div>
-											<div style="float: left;" class="valor">
-												R$100,00
-											</div>
-											<div class="avaliacao">
-												<span class="base-estrela estrela estrela-ativa"></span>
-												<span class="base-estrela estrela estrela-ativa"></span>
-												<span class="base-estrela estrela estrela-ativa"></span>
-												<span class="base-estrela estrela"></span>
-												<span class="base-estrela estrela"></span>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="bloco-conteudo hover">
-									<div class="conteudo">
-										<div class="empresa">Nintendo</div>
-									</div>
-								</div>
-							</a>
-						</div>
+				<div class="col12">
+					<div class="col12">
+						<h3>XBox 360</h3>
+					</div>
+					<div id="base-card-xbox360">
+					</div>
+					<div class="col12">
+						<h3>PlayStation 3</h3>
+					</div>
+					<div id="base-card-ps3">
+					</div>
+					<div class="col12">
+						<h3>PlayStation 4</h3>
+					</div>
+					<div id="base-card-ps4">
 					</div>
 				</div>
 			</div>
@@ -109,11 +101,75 @@
 		}
 		slides[slideIndex - 1].style.display = "block";
 		seletores[slideIndex - 1].className += " active";
-		// slideIndex++;
-		// window.setTimeout(function(){
-		// 	showSlides(slideIndex);
-		// }, 2000);
 	}
+
+	var htmlDestaque = '';
+	function carregarCardJogoDestaque(jogo) {
+		var cor = jogo.plataforma == 'ps3' ? 'vinho' : jogo.plataforma == 'ps4' ? 'azul-claro' : jogo.plataforma == 'xb360' ? 'amarelo' : jogo.plataforma == 'xbone' ? 'roxo' : '';
+
+		var estrela1 = jogo.estrelas >= 1 ? cor : "";
+		var estrela2 = jogo.estrelas >= 2 ? cor : "";
+		var estrela3 = jogo.estrelas >= 3 ? cor : "";
+		var estrela4 = jogo.estrelas >= 4 ? cor : "";
+		var estrela5 = jogo.estrelas >= 5 ? cor : "";
+
+		htmlDestaque += '<div class="base-card-conteudo com-borda ' + cor + '"><a href="jogo.html?' + jogo.id + '&' + jogo.plataforma + '"><div class="bloco-conteudo"><div class="background"><img src="imagens/' + jogo.plataforma + '/' + jogo.imagem + '"></div><div class="conteudo"><div class="categoria">' + jogo.genero + '</div><div class="titulo">' + jogo.nome + '</div><div><div class="valor">R$' + jogo.preco + '</div><div class="avaliacao"><span class="base-estrela estrela ' + estrela1 + ' "></span><span class="base-estrela estrela ' + estrela2 + '"></span><span class="base-estrela estrela ' + estrela3 + '"></span><span class="base-estrela estrela ' + estrela4 + '"></span><span class="base-estrela estrela ' + estrela5 + '"></span></div></div></div></div><div class="bloco-conteudo hover"><div class="conteudo"><div class="empresa">' + jogo.empresa + '</div></div></div></a></div>';
+	}
+
+	function geraIdCarregaCard(jogos) {
+		var idsAleatorios = [];
+
+		do {
+			idJogoDestaque = Math.floor(Math.random() * 24 + 1);
+			if (idsAleatorios.length != 0) {
+				var possui = false;
+				for (var i = 0; i < idsAleatorios.length; i++) {
+					if (idsAleatorios[i] == idJogoDestaque) {
+						idsAleatorios.pop();
+						possui = true;
+					}
+				}
+				if (!possui) {
+					idsAleatorios.push(idJogoDestaque);
+				}
+			} else {
+				idsAleatorios.push(idJogoDestaque);
+			}
+		} while (idsAleatorios.length < 4)
+
+		for (i = 0; i < idsAleatorios.length; i++) {
+			for (var j = 0; j < jogos.length; j++) {
+				if (jogos[j].id == idsAleatorios[i]) {
+					carregarCardJogoDestaque(jogos[j]);
+				}
+			}
+		}
+	}
+
+	function carregarDestaqueXbox360(destaquesXbox360) {
+		htmlDestaque = '';
+		var baseCardXbox360 = document.getElementById("base-card-xbox360");
+		geraIdCarregaCard(destaquesXbox360);
+
+		baseCardXbox360.innerHTML = htmlDestaque;
+	}
+
+	function carregarDestaquePs3(destaquesPs3) {
+		htmlDestaque = '';
+		var baseCardPs3 = document.getElementById("base-card-ps3");
+		geraIdCarregaCard(destaquesPs3);
+
+		baseCardPs3.innerHTML = htmlDestaque;
+	}
+
+	function carregarDestaquePs4(destaquesPs4) {
+		htmlDestaque = '';
+		var baseCardPs4 = document.getElementById("base-card-ps4");
+		geraIdCarregaCard(destaquesPs4);
+
+		baseCardPs4.innerHTML = htmlDestaque;
+	}
+
 </script>
 
 </html>

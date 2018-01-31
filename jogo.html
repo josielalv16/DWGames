@@ -62,7 +62,7 @@
 		$.get('./json/ps4.json', function (res) {
 			carregarJogo(res);
 		});
-	} else if (plataforma == "xbox360") {
+	} else if (plataforma == "xb360") {
 		breadCumb.classList.add("amarelo");
 		breadPlataforma.innerHTML = "<a href='xbox360.html'>XBox 360</a>";
 		$.get('./json/xbox360.json', function (res) {
@@ -84,11 +84,12 @@
 		for (var i = 0; i < res.length; i++) {
 			if (res[i].id == idJogo) {
 				breadNome.innerText = res[i].nome;
-				var estrela1 = res[i].estrelas >= 1 ? "estrela-ativa" : "";
-				var estrela2 = res[i].estrelas >= 2 ? "estrela-ativa" : "";
-				var estrela3 = res[i].estrelas >= 3 ? "estrela-ativa" : "";
-				var estrela4 = res[i].estrelas >= 4 ? "estrela-ativa" : "";
-				var estrela5 = res[i].estrelas >= 5 ? "estrela-ativa" : "";
+				var cor = res[i].plataforma == 'ps3' ? 'vinho' : res[i].plataforma == 'ps4' ? 'azul-claro' : res[i].plataforma == 'xb360' ? 'amarelo' : res[i].plataforma == 'xbone' ? 'roxo' : '';
+				var estrela1 = res[i].estrelas >= 1 ? cor : "";
+				var estrela2 = res[i].estrelas >= 2 ? cor : "";
+				var estrela3 = res[i].estrelas >= 3 ? cor : "";
+				var estrela4 = res[i].estrelas >= 4 ? cor : "";
+				var estrela5 = res[i].estrelas >= 5 ? cor : "";
 
 				html += '<div class="col6"><div class="base-info-jogo" style="max-width: 500px"><img class="slide-jogo" src="imagens/' + plataforma + '/' + res[i].imagens[0] + '" style="width:100%"><img class="slide-jogo" src="imagens/' + plataforma + '/' + res[i].imagens[1] + '" style="width:100%"><img class="slide-jogo" src="imagens/' + plataforma + '/' + res[i].imagens[2] + '" style="width:100%"><div class="linha-padding-jogo section-jogo"><div class="slide-col-jogo s4"><img class="demo slide-jogo-opacity slide-jogo-hover-opacity-off" src="imagens/' + plataforma + '/' + res[i].imagens[0] + '" onclick="trocarFoto(1)"></div><div class="slide-col-jogo s4"><img class="demo slide-jogo-opacity slide-jogo-hover-opacity-off" src="imagens/' + plataforma + '/' + res[i].imagens[1] + '" onclick="trocarFoto(2)"></div><div class="slide-col-jogo s4"><img class="demo slide-jogo-opacity slide-jogo-hover-opacity-off" src="imagens/' + plataforma + '/' + res[i].imagens[2] + '" onclick="trocarFoto(3)"></div></div></div></div><div class="col6"><div><h1 style="color: black;">' + res[i].nome + '</h1></div><div style="margin: 15px auto;"><span style="font-weight: bold;">Gênero: </span><span>' + res[i].genero + '</span></div><div><span>Avaliação</span><div class="avaliacao jogo-estrela"><span class="base-estrela estrela ' + estrela1 + '"></span><span class="base-estrela estrela ' + estrela2 + '"></span><span class="base-estrela estrela ' + estrela3 + '"></span><span class="base-estrela estrela ' + estrela4 + '"></span><span class="base-estrela estrela ' + estrela5 + '"></span></div></div><div class="preco-jogo">R$ ' + res[i].preco + '</div><div><p class="descricao-jogo">Descrição</p><p class="texto-descricao-jogo">' + res[i].descricao + '</p></div></div>';
 			}
