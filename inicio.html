@@ -11,6 +11,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<script type="text/javascript" src="script.js"></script>
 	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
 </head>
@@ -20,13 +21,13 @@
 	<div class="painelSlidesInicio">
 		<div class="slideshow-painel">
 			<div class="slides-inicio fade">
-				<a href="jogo.html?7&xb360">
-					<img src="imagens/destiny-banner.jpg" style="width:100%">
+				<a href="jogo.html?6&ps3">
+					<img src="imagens/call-of-duty-black-ops-banner.jpg" style="width:100%">
 				</a>
 			</div>
 			<div class="slides-inicio fade">
-				<a href="jogo.html?6&ps3">
-					<img src="imagens/call-of-duty-black-ops-banner.jpg" style="width:100%">
+				<a href="jogo.html?7&xb360">
+					<img src="imagens/destiny-banner.jpg" style="width:100%">
 				</a>
 			</div>
 			<div class="slides-inicio fade">
@@ -48,26 +49,39 @@
 	<div class="painel">
 		<div class="grade">
 			<div class="grade-linha">
-				<div class="col12">
+				<div class="col12 azul">
 					<h1>Destaques</h1>
+					<div class="divisor-linha azul"></div>
 				</div>
 				<div class="col12">
-					<div class="col12">
+					<div class="col12 amarelo">
 						<h3>XBox 360</h3>
+						<div class="divisor-linha amarelo"></div>
 					</div>
 					<div id="base-card-xbox360">
 					</div>
-					<div class="col12">
+					<div class="col12 roxo">
+						<h3>XBox One</h3>
+						<div class="divisor-linha roxo"></div>
+					</div>
+					<div id="base-card-xboxone">
+					</div>
+					<div class="col12 vinho">
 						<h3>PlayStation 3</h3>
+						<div class="divisor-linha vinho"></div>
 					</div>
 					<div id="base-card-ps3">
 					</div>
-					<div class="col12">
+					<div class="col12 azul-claro">
 						<h3>PlayStation 4</h3>
+						<div class="divisor-linha azul-claro"></div>
 					</div>
 					<div id="base-card-ps4">
 					</div>
 				</div>
+				<a href="#cabecalho" style="color: #004A87; float: right;">
+					<i class="material-icons">arrow_upward</i>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -152,6 +166,14 @@
 		geraIdCarregaCard(destaquesXbox360);
 
 		baseCardXbox360.innerHTML = htmlDestaque;
+	}
+
+	function carregarDestaqueXboxOne(destaquesXboxOne) {
+		htmlDestaque = '';
+		var baseCardXboxOne = document.getElementById("base-card-xboxone");
+		geraIdCarregaCard(destaquesXboxOne);
+
+		baseCardXboxOne.innerHTML = htmlDestaque;
 	}
 
 	function carregarDestaquePs3(destaquesPs3) {

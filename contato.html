@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Contato</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Vitrine de Jogos!">
+    <meta name="keywords" content="HTML, Jogos, XBox 360, XBox One, PlayStation 3, PlayStation 4">
+    <meta name="author" content="Josiel Alves de Matos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<style>
+    .margem-campo {
+        margin-bottom: 25px;
+    }
+
+    .label {
+        color: #4d4d4d;
+        font-size: 14px;
+        margin-bottom: 8px;
+        font-weight: bold;
+        display: block;
+        white-space: nowrap;
+        text-align: left;
+        vertical-align: middle;
+    }
+
+    input[type="text"],
+    textarea {
+        font-size: 13px;
+        border: 2px solid #CCC;
+        padding: 8px 14px;
+        background-color: #F2F2F2;
+        border-radius: 8px;
+        width: 100%;
+        height: 38px;
+        color: black;
+    }
+
+    .btn {
+        text-transform: uppercase;
+        height: 36px;
+        width: 88px;
+        background-color: #FF5722;
+        color: white;
+        border: 0;
+        cursor: pointer;
+        font-size: 14px;
+        padding: 0px 16px;
+        border-radius: 2px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 3px 4px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.20);
+    }
+
+    .btn:hover {
+        background-color: #F4511E;
+    }
+
+    .btn:active {
+        background-color: #E64A19;
+        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.14), 0 3px 14px rgba(0, 0, 0, 0.12), 0 4px 15px rgba(0, 0, 0, 0.20);
+    }
+
+    .btn.btn-cinza {
+        margin-right: 20px;
+        background-color: #9E9E9E;
+    }
+
+    .btn.btn-cinza:hover {
+        background-color: #757575;
+    }
+
+    .btn.btn-cinza:active {
+        background-color: #616161;
+    }
+
+    @media all and (max-width: 990px) {
+        .btn {
+            width: 100%;
+            margin-right: 0px;
+            margin-bottom: 8px;
+        }
+    }
+
+
+
+
+
+    .tooltip {
+        position: relative;
+    }
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -60px;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+    }
+</style>
+
+<body>
+    <header id="cabecalho"></header>
+    <div class="grade">
+        <div class="grade-linha">
+            <div class="breadcumb laranja">
+                <div>
+                    <a href="inicio.html">Inicio</a>
+                </div>
+                <div>
+                    <span>Contato</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="painel">
+        <div class="grade">
+            <div class="grade-linha">
+                <div class="col12 laranja">
+                    <h1>Envie uma mensagem</h1>
+                    <div class="divisor-linha laranja"></div>
+                </div>
+                <div class="col6">
+                    <div class="col6">
+                        <div class="margem-campo">
+                            <label for="nome" class="label laranja">Nome:</label>
+                            <div class="tooltip">
+                                <input type="text" id="nome" maxlength="80" onfocus="limparTooltipNome()">
+                                <span class="tooltiptext" id="tooltiptextNome">Nome obrigatório</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col6">
+                        <div class="margem-campo">
+                            <label for="email" class="label laranja">Email:</label>
+                            <div class="tooltip">
+                                <input type="text" id="email" maxlength="60" onfocus="limparTooltipEmail()">
+                                <span class="tooltiptext" id="tooltiptextEmail">Email obrigatório</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col6">
+                        <div class="margem-campo">
+                            <label for="assunto" class="label laranja">Assunto:</label>
+                            <div class="tooltip">
+                                <input type="text" id="assunto" maxlength="50" onfocus="limparTooltipAssunto()">
+                                <span class="tooltiptext" id="tooltiptextAssunto">Assunto obrigatório</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col6">
+                    <div class="col6">
+                        <div>
+                            <label for="mensagem" class="label laranja">Mensagem:</label>
+                            <div class="tooltip">
+                                <span class="tooltiptext" style="margin-bottom: 10px;" id="tooltiptextMensagem">Mensagem obrigatória</span>
+                            </div>
+                            <div>
+                                <textarea id="mensagem" style="height: 218px;" onfocus="limparTooltipMensagem()"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grade-linha">
+                <div class="col12" style="text-align: right; margin-top: 20px;">
+                    <button type="button" class="btn btn-cinza" onclick="limpar()">Limpar</button>
+                    <button type="button" class="btn btn-laranja" onclick="enviar()">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="rodape"></footer>
+</body>
+
+<script>
+    function limpar() {
+        document.getElementById("nome").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("assunto").value = "";
+        document.getElementById("mensagem").value = "";
+    }
+
+    function enviar() {
+        var nome = document.getElementById("nome");
+        var email = document.getElementById("email");
+        var assunto = document.getElementById("assunto");
+        var mensagem = document.getElementById("mensagem");
+
+        if (nome.value == "") {
+            document.getElementById("tooltiptextNome").style.visibility = "visible";
+            document.getElementById("tooltiptextNome").style.opacity = "1";
+            nome.style.border = "2px solid red";
+        } else if (email.value == "") {
+            document.getElementById("tooltiptextEmail").style.visibility = "visible";
+            document.getElementById("tooltiptextEmail").style.opacity = "1";
+            email.style.border = "2px solid red";
+        } else if (assunto.value == "") {
+            document.getElementById("tooltiptextAssunto").style.visibility = "visible";
+            document.getElementById("tooltiptextAssunto").style.opacity = "1";
+            assunto.style.border = "2px solid red";
+        } else if (mensagem.value == "") {
+            document.getElementById("tooltiptextMensagem").style.visibility = "visible";
+            document.getElementById("tooltiptextMensagem").style.opacity = "1";
+            mensagem.style.border = "2px solid red";
+        } else {
+            alert('Sua mensagem foi enviada com sucesso! Ela será respondida o mais breve possível.');
+            location.href = 'inicio.html';
+        }
+    }
+
+    function limparTooltipNome() {
+        document.getElementById("tooltiptextNome").style.visibility = "";
+        document.getElementById("tooltiptextNome").style.opacity = "";
+        document.getElementById("nome").style.border = "2px solid #CCC";
+    }
+
+    function limparTooltipEmail() {
+        document.getElementById("tooltiptextEmail").style.visibility = "";
+        document.getElementById("tooltiptextEmail").style.opacity = "0";
+        document.getElementById("email").style.border = "2px solid #CCC";
+    }
+
+    function limparTooltipAssunto() {
+        document.getElementById("tooltiptextAssunto").style.visibility = "";
+        document.getElementById("tooltiptextAssunto").style.opacity = "0";
+        document.getElementById("assunto").style.border = "2px solid #CCC";
+    }
+
+    function limparTooltipMensagem() {
+        document.getElementById("tooltiptextMensagem").style.visibility = "";
+        document.getElementById("tooltiptextMensagem").style.opacity = "0";
+        document.getElementById("mensagem").style.border = "2px solid #CCC";
+    }
+</script>
+
+</html>

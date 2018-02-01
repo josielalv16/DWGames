@@ -52,6 +52,9 @@ function styloMenu() {
             $.get('./json/xbox360.json', function (res) {
                 carregarDestaqueXbox360(res);
             });
+            $.get('./json/xboxone.json', function (res) {
+                carregarDestaqueXboxOne(res);
+            });
             $.get('./json/ps3.json', function (res) {
                 carregarDestaquePs3(res);
             });
