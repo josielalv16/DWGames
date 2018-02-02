@@ -1,3 +1,13 @@
+* {
+	box-sizing: border-box;
+	word-wrap: break-word;
+	outline: none;
+}
+
+*:before, *:after {
+	box-sizing: border-box;
+}
+
 html, body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -9,16 +19,6 @@ html, body {
 	background-color: #F5F5F5;
 	color: #808080;
 	font-style: normal;
-}
-
-* {
-	box-sizing: border-box;
-	word-wrap: break-word;
-	outline: none;
-}
-
-*:before, *:after {
-	box-sizing: border-box;
 }
 
 /*!
@@ -116,7 +116,7 @@ html, body {
 }
 
 a, a:hover, a:visited {
-	color: #5388B4;
+	color: #999999;
 	text-decoration: none;
 }
 
@@ -350,10 +350,6 @@ img {
 	content: "\f005";
 }
 
-.estrela-ativa {
-	color: blue;
-}
-
 .breadcumb {
 	font-size: 13px;
 	margin-top: 20px;
@@ -396,7 +392,7 @@ img {
 	color: #44A3BD !important;
 }
 
-.laranja, .laranja>a{
+.laranja, .laranja>a {
 	color: #FF5722 !important;
 }
 
@@ -420,7 +416,7 @@ img {
 	color: #FAA61E !important;
 }
 
-.breadcumb.laranja a{
+.breadcumb.laranja a {
 	color: #FF5722 !important;
 }
 
@@ -701,29 +697,30 @@ img {
 	height: 2px;
 	margin: 0 0 20px 0;
 }
-.divisor-linha.amarelo{
+
+.divisor-linha.amarelo {
 	background-color: #FAA61E
 }
-.divisor-linha.vinho{
+
+.divisor-linha.vinho {
 	background-color: #A62C48;
 }
 
-.divisor-linha.azul{
+.divisor-linha.azul {
 	background-color: #004A87;
 }
 
-.divisor-linha.azul-claro{
+.divisor-linha.azul-claro {
 	background-color: #44A3BD;
 }
 
-.divisor-linha.roxo{
+.divisor-linha.roxo {
 	background-color: #673AB7;
 }
 
-.divisor-linha.laranja{
+.divisor-linha.laranja {
 	background-color: #FF5722;
 }
-
 
 @media all and (max-width: 1065px) {
 	.painel {
@@ -743,9 +740,6 @@ img {
 	}
 	.grade {
 		width: 95%;
-	}
-	.esconder-grade-pequena {
-		display: none;
 	}
 	.cabecalho .busca {
 		width: 100%;
